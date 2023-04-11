@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="en" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unity - Manual: Building and Running a WebGL Project</title>
+<meta name="description" content="The Unity Manual helps you learn and use the Unity engine. With the Unity engine you can create 2D and 3D games, apps and experiences.">
+<meta name="author" content="Unity Technologies">
+<link rel="shortcut icon" href="../StaticFilesManual/images/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="../StaticFilesManual/images/favicons/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../StaticFilesManual/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../StaticFilesManual/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../StaticFilesManual/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../StaticFilesManual/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../StaticFilesManual/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" href="../StaticFilesManual/images/favicons/apple-touch-icon.png">
+<meta name="msapplication-TileColor" content="#222c37">
+<meta name="msapplication-TileImage" content="../StaticFilesManual/images/favicons/tileicon-144x144.png">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2854981-1']);
+  _gaq.push(['_setDomainName', 'unity3d.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script><script type="text/javascript" src="../StaticFilesManual/js/jquery.js?ts=1503962755"></script><script type="text/javascript" src="../StaticFilesManual/js/core.js?ts=1503962755"></script><script type="text/javascript" src="docdata/toc.js?ts=1503962755"></script><script type="text/javascript" src="docdata/global_toc.js?ts=1503962755"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../StaticFilesManual/css/core.css?ts=1503962755">
+</head>
+<body>
+<div class="header-wrapper">
+<div id="header" class="header"><div class="content">
+<div class="spacer"><div class="menu">
+<div class="logo"><a href="http://docs.unity3d.com"></a></div>
+<div class="search-form"><form action="30_search.html" method="get" class="apisearch">
+<input type="text" name="q" placeholder="Search manual..." autosave="Unity Reference" results="5" class="sbox field" id="q"><input type="submit" class="submit">
+</form></div>
+<ul>
+<li><a href="../Manual/index.html" class="selected">Manual</a></li>
+<li><a href="../ScriptReference/index.html">Scripting API</a></li>
+</ul>
+</div></div>
+<div class="more">
+<div class="filler"></div>
+<ul><li><a href="http://unity3d.com/">unity3d.com</a></li></ul>
+</div>
+</div></div>
+<div class="toolbar"><div class="content">
+<div class="version-number">Version: <b>5.4 beta</b> (<a href="http://docs.unity3d.com/530/Documentation/Manual">switch to 5.3</a>)</div>
+<div class="lang-switcher">
+<div class="current toggle" data-target=".lang-list">
+<div class="lbl">Language: <span class="b">English</span>
+</div>
+<div class="arrow"></div>
+</div>
+<div class="lang-list" style="display:none;"><ul>
+<li><a href="/Manual/">English</a></li>
+<li><a href="/ja/current/Manual/">日本語</a></li>
+<li><a href="/es/current/Manual/">Español</a></li>
+<li><a href="/kr/current/Manual/">한국어</a></li>
+<li><a href="/ru/current/Manual/">Русский</a></li>
+</ul></div>
+</div>
+</div></div>
+</div>
+<div id="master-wrapper" class="master-wrapper clear">
+<div id="sidebar" class="sidebar"><div class="sidebar-wrap"><div class="content"><div class="sidebar-menu"><div class="toc"><h2>Unity Manual</h2></div></div></div></div></div>
+<div id="content-wrap" class="content-wrap"><div class="content-block"><div class="content">
+<div class="section">
+<div class="breadcrumbs clear"><ul>
+<li><a href="UnityManual.html">Unity Manual</a></li>
+<li><a href="PlatformSpecific.html">Platform-Specific</a></li>
+<li><a href="webgl.html">WebGL</a></li>
+<li><a href="webgl-gettingstarted.html">Getting Started with WebGL Development</a></li>
+<li>Building and Running a WebGL Project</li>
+</ul></div>
+<div class="mb20"><div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="webgl-browsercompatibility.html"></a></span><div class="tip">WebGL Browser Compatibility</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="webgl-debugging.html"></a></span><div class="tip">Debugging and trouble shooting WebGL builds</div>
+</div>
+</div></div>
+<h1>Building and Running a WebGL Project</h1>
+<!--BeginSwitchLink--><!--EndSwitchLink-->
+<div class="clear"></div>
+
+<p>When you <a href="PublishingBuilds.html">build</a> a WebGL project, Unity will create a folder with the following files:</p>
+
+<ul>
+<li>an <code>index.html</code> file which browsers can navigate to to load your content.</li>
+<li>a <code>Development</code> or <code>Release</code> folder containing your generated build output files (which one depends on whether you do a development build or not).</li>
+<li>a <code>TemplateData</code> folder (at least when building with the default template), containing the loading bar and other template assets. See the manual page on <a href="webgl-templates.html">WebGL templates</a> for more info.</li>
+</ul>
+
+<p>The a <code>Development</code> or <code>Release</code> contains the following files (replace <code>MyProject</code> with the name of your project). If you make a release build, files in this folder will be compressed and have a <code>gz</code> suffix. See the comments on Distribution size below. </p>
+
+<ul>
+<li>a <code>MyProject.js</code> JavaScript file containing the code for your player.</li>
+<li>a <code>MyProject.mem</code> file containing a binary image to initialize the heap memory for your player.</li>
+<li>a <code>MyProject.data</code> file containing the asset data and scenes.</li>
+<li>a <code>UnityLoader.js</code> file containing the code needed to load up the Unity content in the web page.</li>
+</ul>
+
+<p>You can view your WebGL player directly in most browsers by simply opening the <code>index.html</code> file. For security reasons, Chrome places restrictions on scripts opened from local <code>file:</code> URLs, so this technique will not work. If you use Unity’s <em>Build &amp; Run</em> command (menu: <strong>File &gt; Build &amp; Run</strong>) then the file will be temporarily hosted in a local web server and opened from a localhost URL (this avoids the security restrictions). You can also run Chrome with the <code>--disable-web-security</code> command line option to enable it to load content from <code>file:</code> urls.</p>
+
+<p>On some servers you will need to make “.mem” and “.data” files accessible. The server will need to provide these files to clients. </p>
+
+<h2>Build Player Options</h2>
+
+<p>When you tick the “Development Build” checkbox, Unity will generate a development build (with Profiler support and the development console for errors, like on other platforms). Additionally, Development builds are non-minified, so the generated JavaScript is human-readable and preserves function names (so you will get useful stack traces for errors), but very large to distribute.</p>
+
+<p>The “Use pre-built Engine” option can be used to speed up build iteration time during development. When this option is enabled, only the managed code will be rebuilt and then linked dynamically with the pre-build Unity engine, so the project can be rebuild about 30–40% faster. Note that this type of build is only suited for development purposes, as it always produces unstripped engine code. Also, due to dynamic linking overhead, the performance of such build is somewhat slower than of normal build.</p>
+
+<p>The “Autoconnect Profiler” checkbox must be used when you want to profile your Unity WebGL content. It is not possible to connect the Profiler to a running build like on other platforms, as the profiler connection is handled using WebSockets on WebGL, but the browser will only allow outgoing connections from the content, so the only way to use the Profiler in WebGL is to check “Autoconnect Profiler” to have the content connect to the Editor.</p>
+
+<h2>Player Settings</h2>
+
+<p>WebGL has some additional options in the Player Settings (menu: <strong>Edit &gt; Project Settings &gt; Player</strong>).</p>
+
+<p>The <em>Strip Engine Code</em> option in <em>Other Settings</em> lets you enable code stripping for WebGL. If you enable Stripping, Unity will not include code for any classes you don’t use - so if you don’t use any physics components or methods for instance, the whole physics engine will be stripped from your build. See the stripping section below for more details.</p>
+
+<p>The <em>WebGL memory size</em> field in <em>Publishing Settings</em> lets you specifiy how much memory (in MB) the content should allocate for its heap. If this value is too low, you will get ‘out of memory’ errors when your loaded content and scenes would not fit into the available memory. However if you set this value too high, your content might fail to load in some browsers or on some machines, because the browser might not have enough available memory to allocate the requested heap size. This value is written to a variable named “TOTAL_MEMORY” in the generated html file, so if you want to experiment with this setting, you can edit the html file to avoid the need to rebuild your project. See the manual page on <a href="webgl-memory.html">WebGL memory usage</a> for more details.</p>
+
+<p>The <em>Enable Exceptions</em> popup in <em>Publishing Settings</em> lets you enable exception support in WebGL. If you don’t need any exception support, set this to “None”, which will give you the best performance and smallest builds. Any exception thrown will cause your content to stop with an error in that setting. However if you need to use exceptions, you can set it to:</p>
+
+<ul>
+<li>
+<em>Explicitly Thrown Exceptions Only</em> (default), which will allow catching exceptions which are explictly thrown from a “throw” statement, and will make “finally” blocks in your code work. This will make the generated JavaScript code from your user scripts bigger and slower, but is usually not that much of an issue if scripts are not the main bottleneck in your project.</li>
+<li>
+<em>Full</em>, which, additional to the above, will also generate exceptions for Null References and for out of bounds array access. These are generated by embedding checks for any access to references into the generated code, so it will cause additional code size increases and slowdowns. Also, this will add managed stack traces to exceptions. It is advisable to use this mode only when you need to debug issues in your code, as it generates very large and very slow builds.</li>
+</ul>
+
+<p>The <em>Data caching</em> checkbox in <em>Publishing Settings</em> lets you enable automatic local caching of your player data. If this is enabled, your assets will be stored to a local cached in the browsers IndexedDB database, so that they won’t have to be re-downloaded in subsequent runs of your content. Note that different browsers have different rules on allowing IndexedDB storage, and may ask the user for permission to store the data if this is enabled, and your build exceeds some size limit defined by the browser.</p>
+
+<h2>Distribution size</h2>
+
+<p>When publishing for WebGL, it is important to keep your build size low so people get reasonable download times before the content will start. For generic tips on reducing asset sizes, see <a href="ReducingFilesize.html">Reducing the File Size of the Build</a>. Some additonal comments specific to WebGL:</p>
+
+<ul>
+<li>Specify the “Crunch” texture compression format for all your compressed textures in the <a href="class-TextureImporter.html">Texture Importer</a>.</li>
+<li>Don’t deploy Development builds, they are not compressed or <a href="https://en.wikipedia.org/wiki/Minification_%28programming%29">Minified</a> and so have much larger file sizes.</li>
+<li>Set “Enable Exceptions” in Player Settings to “None” if you don’t need exceptions in your build.</li>
+<li>Enable “Strip Engine Code” in Player Settings.</li>
+<li>Take care when using third-party managed dlls, as those may drag in a lot of dependencies and increase the emitted code size significantly.</li>
+</ul>
+
+<p>If you make a release build, Unity will compress the build output files using gzip compression and append <code>gz</code> suffix to the filename extensions. When you open release build in a browser, the Unity loader first tries to load these files without <code>gz</code> suffix, as if they were uncompressed, so you can optimize file download if you configure your web server to serve these files gzip compressed on the http protocol level. In such case the files will be decompressed by the browser during download. To achieve this, the web server should be able to serve the compressed files from the Release folder without <code>gz</code> suffix and with “Content-Encoding: gzip” response header appended.</p>
+
+<p>If you do not make any changes to your web server configuration, the loader will fallback to downloading the compressed files directly and decompress the data at load time in JavaScript. So you will still be using compressed files, but there will be a slight extra delay at startup for decompressing the data. You can tell that this happens when you see a message like this in your browser’s JavaScript console:</p>
+
+<pre><code>Decompressed Release/MyProject.jsgz in 82ms. You can remove this delay if you configure your web server to host files using gzip compression.
+</code></pre>
+
+<h2>AssetBundles</h2>
+
+<p>Since all your asset data needs to be pre-downloaded before your content will start, you should consider moving assets out of your main data files and into <a href="AssetBundlesIntro.html">AssetBundles</a>. That way, you can create a small loader scene for your content which loads up quickly, and dynamically load assets on-demand as the user proceeds through your content. Also, AssetBundles will help with <a href="webgl-memory.html">asset data memory</a>, since you will be able to unload asset data from memory for assets you don’t need any more by calling <strong><a href="../ScriptReference/AssetBundle.Unload.html"><code>AssetBundle.Unload</code></a></strong>].</p>
+
+<p>Some considerations apply when using AssetBundles on the WebGL platform:</p>
+
+<ul>
+<li><p>When you are using class types in your AssetBundle which are not used in your main build, this can cause Unity to strip the code for those classes from the build, which will then cause it to fail when trying to load assets from the AssetBundle. See the section on <em>Stripping</em> below to learn how to fix that.</p></li>
+<li><p>Since WebGL does not support threading, and since http downloads will only become available when finished, Unity WebGL builds need to decompress AssetBundle data on the main thread when the download is done, thus blocking the main thread. To avoid this interruption, you may want to avoid using the default <a href="AssetBundleCompression.html">LZMA</a> Format for your AssetBundles, and compress using LZ4 instead, which is decompressed very efficiently on-demand. If you need smaller compression sizes then LZ4 delivers, you can configure your web server to gzip-compress the files on the http protocol level (on top of LZ4 compression).</p></li>
+<li><p>AssetBundle caching using <strong><a href="../ScriptReference/WWW.LoadFromCacheOrDownload.html"><code>WWW.LoadFromCacheOrDownload</code></a></strong> is supported in WebGL using the IndexedDB API from the browser to implement caching on the user’s computer. Note that IndexedDB may have limited <a href="webgl-browsercompatibility.html">support</a> on some browsers, and that browsers may request the user’s authorization to store data on disk.</p></li>
+</ul>
+
+<h2>Stripping</h2>
+
+<p>By default, Unity will perform code stripping on your build - this can be controlled using the <em>Strip Engine Code</em> option in <em>Other Settings</em>. Code stripping will scan your project for any UnityObject-derived classes used (either by being referenced in your script code, or in the serialized data in your scenes), and it will strip the code of any Unity subsystems which have none of their classes used from the build. This will make your build emit less code, resulting in both, smaller downloads and less code to parse (meaning code will be parsed faster and using less memory). So, it is generally advisable to always build with stripping enabled.</p>
+
+<p>It is possible, however, that code stripping may cause issues with your project and strip code which is needed. This can be the case when you load AssetBundles at runtime which contain classes which are not included in the main build, and have thus been stripped from the project. You will see error messages like this in your browser’s JavaScript console when that happens (potentially followed by more errors):</p>
+
+<pre><code>Could not produce class with ID XXX
+</code></pre>
+
+<ul>
+<li>where <code>XXX</code> can be looked up in the <a href="ClassIDReference.html">Class ID Reference</a> to see which class it is trying to create an instance of. In such cases you can force Unity to include the code for that class in the build, either by adding a reference to that class to your scripts or to your scenes, or by adding a <code>link.xml</code> file to your project. Here’s an example which makes sure that the Collider class (and thus, the Physics module) gets preserved in a project - add this xml code to a file called <code>link.xml</code>, and put that file into your Assets folder:</li>
+</ul>
+
+<pre><code>&lt;linker&gt;
+    &lt;assembly fullname=&quot;UnityEngine&quot;&gt;
+        &lt;type fullname=&quot;UnityEngine.Collider&quot; preserve=&quot;all&quot;/&gt;
+    &lt;/assembly&gt;
+&lt;/linker&gt;
+
+</code></pre>
+
+<p>You can always try disabling the <em>Strip Engine Code</em> option for testing, if you suspect that stripping is causing problems with your build.</p>
+
+<p>Unity does not yet provide a convenient way to see which modules and classes are included in a build, which would allow you to optimize your project to strip well. We are working on providing that information - in the meantime, you may want to look at the generated file <em>Temp/StagingArea/Data/il2cppOutput/UnityClassRegistration.cpp</em> after making a build, to get an overview of included classes and modules.</p>
+
+<p>Note that the <em>Strip Engine Code</em> option only affects Unity engine code. IL2CPP will always strip byte code from your managed dlls and scripts. This can cause problems when you need to reference managed types dynamically through reflection rather then through static references in your code. If you need to access types through relection, you may also need to set up a <code>link.xml</code> file to preserve those types. See the documentation page on <a href="iphone-playerSizeOptimization.html">iOS Build size optimization</a> for more information on <code>link.xml</code> files.</p>
+
+<h2>Moving build output files</h2>
+
+<p>If you want to change the location of your output files relative to the <code>index.html</code> file, you can do so by editing the <code>dataUrl</code>, <code>codeUrl</code>, and <code>memUrl</code> fields and the <code>UnityLoader.js</code> script tag in the <code>index.html</code> file. You can specifiy URLs on external servers for these if you want to host your files on a CDN, but you will need to make sure that the hosting server has enabled CORS for this to work. See the manual page on <a href="webgl-networking.html">WebGL networking</a> for more information about CORS.</p>
+
+<h2>Incremental builds</h2>
+
+<p>The C++ code generated for your project by IL2CPP will be compiled incrementally. That is, only generated C++ code that has changed since the last build will be compiled again. Unchanged source code will re-use the same object files generated for the previous build. The object files used for incremental C++ builds are stored in the <em>Library/il2cpp_cache</em> directory in the Unity project. To perform a clean build of the generated C++ code, delete this directory. Note that if the Unity editor version differs from the one used for the previous WebGL build, a clean build will occur automatically.</p>
+<div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="webgl-browsercompatibility.html"></a></span><div class="tip">WebGL Browser Compatibility</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="webgl-debugging.html"></a></span><div class="tip">Debugging and trouble shooting WebGL builds</div>
+</div>
+</div>
+</div>
+<div class="footer-wrapper"><div class="footer clear">
+<div class="copy">
+<known_issues><p>Is something described here not working as you expect it to? It might be a <b>Known Issue</b>. Please check with the Issue Tracker at <a href="http://issuetracker.unity3d.com">issuetracker.unity3d.com</a>.</p></known_issues>Copyright © 2016 Unity Technologies. Publication 5.4b-R</div>
+<div class="menu">
+<a href="http://unity3d.com/learn">Tutorials</a><a href="http://answers.unity3d.com">Community Answers</a><a href="https://support.unity3d.com/hc/en-us">Knowledge Base</a><a href="http://forum.unity3d.com">Forums</a><a href="http://unity3d.com/asset-store">Asset Store</a>
+</div>
+</div></div>
+</div></div></div>
+</div>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC35ML" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC35ML');</script>
+</body>
+</html>

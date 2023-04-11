@@ -1,0 +1,750 @@
+<!DOCTYPE html><html lang="en" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unity - Manual: UnityWebRequest</title>
+<meta name="description" content="The Unity Manual helps you learn and use the Unity engine. With the Unity engine you can create 2D and 3D games, apps and experiences.">
+<meta name="author" content="Unity Technologies">
+<link rel="shortcut icon" href="../StaticFilesManual/images/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="../StaticFilesManual/images/favicons/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../StaticFilesManual/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../StaticFilesManual/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../StaticFilesManual/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../StaticFilesManual/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../StaticFilesManual/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" href="../StaticFilesManual/images/favicons/apple-touch-icon.png">
+<meta name="msapplication-TileColor" content="#222c37">
+<meta name="msapplication-TileImage" content="../StaticFilesManual/images/favicons/tileicon-144x144.png">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2854981-1']);
+  _gaq.push(['_setDomainName', 'unity3d.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script><script type="text/javascript" src="../StaticFilesManual/js/jquery.js?ts=1503962755"></script><script type="text/javascript" src="../StaticFilesManual/js/core.js?ts=1503962755"></script><script type="text/javascript" src="docdata/toc.js?ts=1503962755"></script><script type="text/javascript" src="docdata/global_toc.js?ts=1503962755"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../StaticFilesManual/css/core.css?ts=1503962755">
+</head>
+<body>
+<div class="header-wrapper">
+<div id="header" class="header"><div class="content">
+<div class="spacer"><div class="menu">
+<div class="logo"><a href="http://docs.unity3d.com"></a></div>
+<div class="search-form"><form action="30_search.html" method="get" class="apisearch">
+<input type="text" name="q" placeholder="Search manual..." autosave="Unity Reference" results="5" class="sbox field" id="q"><input type="submit" class="submit">
+</form></div>
+<ul>
+<li><a href="../Manual/index.html" class="selected">Manual</a></li>
+<li><a href="../ScriptReference/index.html">Scripting API</a></li>
+</ul>
+</div></div>
+<div class="more">
+<div class="filler"></div>
+<ul><li><a href="http://unity3d.com/">unity3d.com</a></li></ul>
+</div>
+</div></div>
+<div class="toolbar"><div class="content">
+<div class="version-number">Version: <b>5.4 beta</b> (<a href="http://docs.unity3d.com/530/Documentation/Manual">switch to 5.3</a>)</div>
+<div class="lang-switcher">
+<div class="current toggle" data-target=".lang-list">
+<div class="lbl">Language: <span class="b">English</span>
+</div>
+<div class="arrow"></div>
+</div>
+<div class="lang-list" style="display:none;"><ul>
+<li><a href="/Manual/">English</a></li>
+<li><a href="/ja/current/Manual/">日本語</a></li>
+<li><a href="/es/current/Manual/">Español</a></li>
+<li><a href="/kr/current/Manual/">한국어</a></li>
+<li><a href="/ru/current/Manual/">Русский</a></li>
+</ul></div>
+</div>
+</div></div>
+</div>
+<div id="master-wrapper" class="master-wrapper clear">
+<div id="sidebar" class="sidebar"><div class="sidebar-wrap"><div class="content"><div class="sidebar-menu"><div class="toc"><h2>Unity Manual</h2></div></div></div></div></div>
+<div id="content-wrap" class="content-wrap"><div class="content-block"><div class="content">
+<div class="section">
+<div class="breadcrumbs clear"><ul>
+<li><a href="UnityManual.html">Unity Manual</a></li>
+<li><a href="UNet.html">Multiplayer and Networking</a></li>
+<li><a href="UNetOverview.html">Networking Overview</a></li>
+<li>UnityWebRequest</li>
+</ul></div>
+<div class="mb20"><div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="MobileNetworking.html"></a></span><div class="tip">Networking Tips for Mobile devices.</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="UNetReference.html"></a></span><div class="tip">Networking Reference</div>
+</div>
+</div></div>
+<h1>UnityWebRequest</h1>
+<!--BeginSwitchLink--><!--EndSwitchLink-->
+<div class="clear"></div>
+
+<p>The UnityWebRequest is a replacement for Unity’s original WWW object. It provides a modular system for composing HTTP requests and handling HTTP responses. The primary goal of the UnityWebRequest system is to permit Unity games to interact with modern Web backends. It also supports high-demand features such as chunked HTTP requests, streaming POST/PUT operations and full control over HTTP headers and verbs.</p>
+
+<p>For end-users who only employ common WWW use cases, transitioning to the new system should be almost a find-and-replace process.</p>
+
+<p>The system consists of two layers. A Low-Level API (LLAPI) provides maximum flexibility for power users, while a High-Level API (HLAPI) wraps the Low-Level API and provides a convenient interface for performing common operations.</p>
+
+<h2>Supported Platforms</h2>
+
+<p>The UnityWebRequest system supports most Unity platforms.</p>
+
+<p>Platforms supported in 5.2:</p>
+
+<ul>
+<li>All versions of the Editor &amp; Standalone players</li>
+<li>WebGL</li>
+</ul>
+
+<p>Platforms supported in 5.3:</p>
+
+<ul>
+<li>Mobile Platforms: iOS, Android, Windows Phone 8</li>
+<li>Windows Store Apps</li>
+</ul>
+
+<p>Additional platform support will be rolled out in further 5.x releases:</p>
+
+<ul>
+<li>PS4, PS Vita, and PS Mobile</li>
+<li>XBox 360 and XBox One</li>
+<li>Wii U</li>
+</ul>
+
+<h2>Architecture</h2>
+
+<p>The UnityWebRequest ecosystem breaks down an HTTP transaction into three distinct operations:</p>
+
+<ul>
+<li>Supplying data to the server</li>
+<li>Receiving data from the server</li>
+<li>HTTP flow control (redirects, error handling, etc.)</li>
+</ul>
+
+<p>To provide a better interface for power users, these operations are each governed by their own objects:</p>
+
+<ul>
+<li>An <code>UploadHandler</code> object handles transmission of data to the server</li>
+<li>A <code>DownloadHandler</code> object handles receipt, buffering and postprocessing of data received from the server</li>
+<li>A <code>UnityWebRequest object</code>, which manages the other two objects, and also handles HTTP flow control. This object is where custom headers and URLs are defined, and where error and redirect information is stored.</li>
+</ul>
+
+<figure>
+<img src="../uploads/Main/UnityWebRequestArchitecture.png" alt="">
+</figure>
+
+<p>For any given HTTP transaction, the generic code flow is:</p>
+
+<ul>
+<li>Create a Web Request object</li>
+<li>Configure the Web Request object
+
+<ul>
+<li>Set custom headers</li>
+<li>Set HTTP verb (GET, POST, HEAD, etc.)
+
+<ul>
+<li>Custom verbs are permitted</li>
+</ul>
+</li>
+<li>Set URL</li>
+</ul>
+</li>
+<li>(Optional) Create an Upload Handler &amp; attach it to the Web Request
+
+<ul>
+<li>Provide data to be uploaded</li>
+<li>Provide HTTP form to be uploaded</li>
+</ul>
+</li>
+<li>(Optional) Create a Download Handler &amp; attach it to the Web Request</li>
+<li>Send the Web Request
+
+<ul>
+<li>If inside a coroutine, you may Yield the result of the <code>Send()</code> call to wait for the request to complete, just like WWW.</li>
+</ul>
+</li>
+<li>(Optional) Read received data from the Download Handler</li>
+<li>(Optional) Read error information, HTTP status code and response headers from the UnityWebRequest object</li>
+</ul>
+
+<h2>Common Operations: Using the HLAPI</h2>
+
+<p>This section details the options available in the High-Level API, and the scenarios they are intended to address.</p>
+
+<h3>Retrieve Text or Binary Data from an HTTP Server (GET)</h3>
+
+<p>To retrieve simple data, such as textual data or binary data, from a standard HTTP or HTTPS web server, the call to use is UnityWebRequest.GET. This method takes a single string as an argument; the string specifies the URL from which data will be retrieved.</p>
+
+<p>This method is analogous to the standard WWW constructor:</p>
+
+<pre><code>WWW myWww = new WWW(&quot;http://www.myserver.com/foo.txt&quot;);
+// ... is analogous to ...
+UnityWebRequest myWr = UnityWebRequest.Get(&quot;http://www.myserver.com/foo.txt&quot;);
+</code></pre>
+
+<h4>Details:</h4>
+
+<p>This method creates a <code>UnityWebRequest</code> and sets the target URL to the string argument. It sets no other custom flags or headers.</p>
+
+<p>By default, this method attaches a standard <code>DownloadHandlerBuffer</code> to the <code>UnityWebRequest</code>. This handler will buffer the data received from the server and make it available to your scripts when the request is complete.</p>
+
+<p>By default, this method attaches no <code>UploadHandler</code> to the <code>UnityWebRequest</code>. You may attach one manually if you wish.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+using UnityEngine.Networking;
+ 
+class MyBehaviour: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(GetText());
+    }
+ 
+    IEnumerator GetText() {
+        UnityWebRequest www = UnityWebRequest.Get(&quot;http://www.my-server.com&quot;);
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            // Show results as text
+            Debug.Log(www.downloadHandler.text);
+ 
+            // Or retrieve results as binary data
+            byte[] results = www.downloadHandler.data;
+        }
+    }
+}
+</code></pre>
+
+<h3>Retrieve a Texture from an HTTP Server (GET)</h3>
+
+<p>To retrieve a texture file from a remote server, you may use <code>UnityWebRequest.Texture.</code> This method is very similar to <code>UnityWebRequest.GET</code>, but is optimized for downloading and storing textures efficiently.</p>
+
+<p>This method takes a single string as an argument. The string specifies the URL from which you wish to download an image file for use as a texture.</p>
+
+<h4>Details:</h4>
+
+<p>This method creates a <code>UnityWebRequest</code> and sets the target URL to the string argument. This method sets no other flags or custom headers.</p>
+
+<p>This method attaches a <code>DownloadHandlerTexture</code> object to the <code>UnityWebRequest</code>. DownloadHandlerTexture is a specialized Download Handler which is optimized for storing images which are to be used as textures in the Unity Engine. Using this class significantly reduces memory reallocation compared to downloading raw bytes and creating a texture manually in script.</p>
+
+<p>By default, this method attaches on Upload Handler. You may add one manually if you wish.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+ 
+class MyBehaviour: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(GetTexture());
+    }
+ 
+    IEnumerator GetTexture() {
+        UnityWebRequest www = UnityWebRequest.GetTexture(&quot;http://www.my-server.com/image.png&quot;);
+        yield return www.Send();
+
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            Texture myTexture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+        }
+    }
+}
+
+Alternatively, you can implement GetTexture using a helper getter:
+    IEnumerator GetTexture() {
+        UnityWebRequest www = UnityWebRequest.GetTexture(&quot;http://www.my-server.com/image.png&quot;);
+        yield return www.Send();
+
+        Texture myTexture = DownloadHandlerTexture.GetContent(www);
+    }
+</code></pre>
+
+<h3>Downloading an Asset Bundle from an HTTP Server (GET)</h3>
+
+<p>To retrieve an asset bundle from a remote server, you may use UnityWebRequest.AssetBundle. This method streams data into an internal buffer, which decodes/decompresses the asset bundle’s data on a worker thread.</p>
+
+<p>The method’s arguments take several forms. In its simplest form, it takes only the URL from which the asset bundle should be downloaded. You may optionally provide a checksum to verify the integrity of the downloaded data.</p>
+
+<p>Alternately, if you wish to use the asset bundle caching system, you may provide either a version number or a Hash128 data structure. These are identical to the version numbers or <code>Hash128 objects</code> provided to the old system via <code>WWW.LoadFromCacheOrDownload</code>.</p>
+
+<h4>Details:</h4>
+
+<p>This method creates a <code>UnityWebRequest</code> and sets the target URL to the supplied URL argument. It also sets the HTTP verb to <code>GET</code>, but sets no other flags or custom headers.</p>
+
+<p>This method attaches a <code>DownloadHandlerAssetBundle</code> to the <code>UnityWebRequest</code>. This download handler has a special <code>assetBundle</code> property, which can be used to extract the asset bundle once enough data has been downloaded and decoded to permit access to the resources inside the bundle.</p>
+
+<p>If you supply a version number or <code>Hash128</code> object as arguments, it also passes those arguments to the <code>DownloadHandlerAssetBundle</code>. The download handler will then employ the caching system.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+ 
+class MyBehaviour: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(GetAssetBundle());
+    }
+ 
+    IEnumerator GetAssetBundle() {
+        UnityWebRequest www = UnityWebRequest.GetAssetBundle(&quot;http://www.my-server.com/myData.unity3d&quot;);
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            AssetBundle bundle = ((DownloadHandlerAssetBundle)www.downloadHandler).assetBundle;
+        }
+    }
+}
+</code></pre>
+
+<p>Alternatively, you can implement <code>GetAssetBundle</code> using a helper getter:</p>
+
+<pre><code>    IEnumerator GetTexture() {
+        UnityWebRequest www = UnityWebRequest.GetAssetBundle(&quot;http://www.my-server.com/myData.unity3d&quot;);
+        yield return www.Send();
+
+        AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
+    }
+</code></pre>
+
+<h3>Sending a Form to an HTTP Server (POST)</h3>
+
+<p>There are two primary methods for sending data to a server, formatted as an HTML Form.</p>
+
+<h4>Legacy Method: Using WWWForm</h4>
+
+<p>To help migrate from the old WWW system, the new UnityWebRequest system permits you to use the old WWWForm object to provide form data.</p>
+
+<p>In this case, the function signature is:</p>
+
+<pre><code>WebRequest.Post(string url, WWWForm formData);
+</code></pre>
+
+<h5>Details:</h5>
+
+<p>This method creates a new <code>UnityWebRequest</code> and sets the target URL to the first string argument’s value. It also reads any custom headers generated by the <code>WWWForm</code> argument (such as Content-Type) and copies them into the <code>UnityWebRequest</code>.</p>
+
+<p>This method, by default, attaches a <code>DownloadHandlerBuffer</code> to the <code>UnityWebRequest</code>. This is for convenience: you can use this to check your server’s replies.</p>
+
+<p>This method reads the raw data generated by the <code>WWWForm object</code> and buffers it in an <code>UploadHandlerRaw</code> object, which is attached to the <code>UnityWebRequest</code>. Therefore, changes to the <code>WWWForm</code>object after calling <code>UnityWebRequest.POST</code> will not alter the contents of the <code>UnityWebRequest</code>.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+ 
+class MyBehavior: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(Upload());
+    }
+ 
+    IEnumerator Upload() {
+        WWWForm form = new WWWForm();
+        form.AddField(&quot;myField&quot;, &quot;myData&quot;);
+ 
+        UnityWebRequest www = UnityWebRequest.Post(&quot;http://www.my-server.com/myform&quot;, form);
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            Debug.Log(&quot;Form upload complete!&quot;);
+        }
+    }
+}
+</code></pre>
+
+<h4>New Method: Using IMultipartFormSection</h4>
+
+<p>To provide greater control over how you specify your form data, the <code>UnityWebRequest</code>system contains a (user-implementable) <code>IMultipartFormSection</code> interface. For standard applications, Unity also provides default implementations for data and file sections: <code>MultipartFormDataSection</code> and <code>MultipartFormFileSection</code>.</p>
+
+<p>An overload of <code>UnityWebRequest.POST</code> accepts, as a second parameter, a List argument, whose members must all be <code>IMultipartFormSections</code>. The function signature is:</p>
+
+<pre><code>WebRequest.Post(string url, List&lt;IMultipartFormSection&gt; formSections);
+</code></pre>
+
+<h5>Details:</h5>
+
+<p>This method creates a <code>UnityWebRequest</code> and sets the target URL to the first string parameter. It also sets the Content-Type header of the <code>UnityWebRequest</code> appropriately for the form data specified in the list of <code>IMultipartFormSection</code> objects.</p>
+
+<p>This method, by default, attaches a <code>DownloadHandlerBuffer</code> to the <code>UnityWebRequest</code>. This is for convenience: you can use this to check your server’s replies.</p>
+
+<p>Similar to the <code>WWWForm POST</code> method, this HLAPI method will call each supplied <code>IMultipartFormSection</code> in turn and format them into a standard multipart form as specified in RFC 2616.</p>
+
+<p>The preformatted form data will be stored in a standard <code>UploadHandlerRaw</code> object, which is then attached to the <code>UnityWebRequest</code>. As a result, changes to the <code>IMultipartFormSection</code> objects performed after the U<code>nityWebRequest.POST</code> call will not be reflected in the data sent to the server.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+ 
+class MyBehavior: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(Upload());
+    }
+ 
+    IEnumerator Upload() {
+        List&lt;IMultipartFormSection&gt; formData = new List&lt;IMultipartFormSection&gt;();
+        formData.Add( new MultipartFormDataSection(&quot;field1=foo&amp;field2=bar&quot;) );
+        formData.Add( new MultipartFormFileSection(&quot;my file data&quot;, &quot;myfile.txt&quot;) );
+
+        UnityWebRequest www = UnityWebRequest.Post(&quot;http://www.my-server.com/myform&quot;, formData);
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            Debug.Log(&quot;Form upload complete!&quot;);
+        }
+    }
+}
+</code></pre>
+
+<h3>Uploading Raw Data to an HTTP Server (PUT)</h3>
+
+<p>Some modern web applications prefer that files be uploaded via the HTTP PUT verb. For this scenario, Unity provides the UnityWebRequest.PUT method.</p>
+
+<p>This method takes two arguments. The first argument is a string and specifies the target URL for the request. The second argument may be either a string or a byte array, and specifies the payload data to be sent to the server.</p>
+
+<p>Function signatures:</p>
+
+<pre><code>WebRequest.Put(string url, string data);
+WebRequest.Put(string url, byte[] data);
+</code></pre>
+
+<h4>Details:</h4>
+
+<p>This method creates a<code>UnityWebRequest</code> and sets the content type to <code>application/octet-stream</code>.</p>
+
+<p>This method attaches a standard <code>DownloadHandlerBuffer</code> to the <code>UnityWebRequest</code>. As with the POST methods, you can use this to return result data from your applications.</p>
+
+<p>This method stores the input upload data in a standard <code>UploadHandlerRaw</code> object and attaches it to the <code>UnityWebRequest</code>. As a result, if using the byte[] method, changes to the byte array performed after the <code>UnityWebRequest.PUT</code> call will not be reflected in the uploaded data to the server.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+ 
+class MyBehavior: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(Upload());
+    }
+ 
+    IEnumerator Upload() {
+        byte[] myData = System.Text.Encoding.UTF8.GetBytes(&quot;This is some test data&quot;);
+        UnityWebRequest www = UnityWebRequest.Put(&quot;http://www.my-server.com/upload&quot;, myData);
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            Debug.Log(&quot;Upload complete!&quot;);
+        }
+    }
+}
+</code></pre>
+
+<h2>Finer Control: Using the LLAPI</h2>
+
+<p>While the HLAPI is designed to minimize boilerplate code, the LLAPI is designed to permit maximum flexibility. In general, using the LLAPI involves creating UnityWebRequests, then creating appropriate <code>DownloadHandlers</code> or <code>UploadHandlers</code> and attaching them to your <code>UnityWebRequests</code>.</p>
+
+<p>For full details on each of the objects described in this section, please refer to the Scripting Reference.</p>
+
+<p>Note: The HLAPI and LLAPI are not mutually exclusive. You can always customize UnityWebRequest objects created via the HLAPI if you need to tweak a common scenario.</p>
+
+<h3>Creating UnityWebRequests</h3>
+
+<p>WebRequests can be simply instantiated like any other object. Two constructors are available. The standard, parameterless constructor creates a new UnityWebRequest with all settings blank or default:
+* The target URL is not set
+* No custom headers are set
+* The redirect limit is set to 32</p>
+
+<p>The second constructor takes a string argument. It assigns the UnityWebRequest’s target URL to the value of the string argument, and is otherwise identical to the parameterless constructor.</p>
+
+<h4>Example:</h4>
+
+<pre><code>UnityWebRequest wr = new UnityWebRequest(); // Completely blank
+UnityWebRequest wr2 = new UnityWebRequest(&quot;http://www.mysite.com&quot;); // Target URL is set
+</code></pre>
+
+<h3>Creating UploadHandlers</h3>
+
+<p>Currently, only one type of upload handler is available: <code>UploadHandlerRaw</code>. This class accepts a data buffer at construction time. This buffer is copied internally into native-code memory and then used by the <code>UnityWebRequest</code> system when the remote server is ready to accept body data.</p>
+
+<p>Upload Handlers also accept a Content Type string. This string will be used for the value of the UnityWebRequest’s Content-Type header if you set no Content-Type header on the UnityWebRequest itself. If you manually set a Content-Type header on the UnityWebRequest object, then the Content-Type on the Upload Handler object will be ignored.</p>
+
+<p>If you do not set a Content-Type on either the UnityWebRequest or the <code>UploadHandler</code>, then the system will default to setting a Content-Type of <code>application/octet-stream</code>.</p>
+
+<p>Example:</p>
+
+<pre><code>byte[] payload = new byte[1024];
+// ... fill payload with data ...
+
+UnityWebRequest wr = new UnityWebRequest(&quot;http://www.mysite.com/data-upload&quot;);
+UploadHandler uploader = new UploadHandlerRaw(payload);
+
+// Will send header: &quot;Content-Type: custom/content-type&quot;;
+uploader.contentType = &quot;custom/content-type&quot;;
+
+wr.uploadHandler = uploader;
+</code></pre>
+
+<h3>Creating DownloadHandlers</h3>
+
+<p>Currently, there are four types of <code>DownloadHandlers</code>:</p>
+
+<ul>
+<li>
+<code>DownloadHandlerBuffer</code> stores received data in a native-code byte buffer, and permits access either to the raw bytes or will convert it into a UTF8 string.</li>
+<li>
+<code>DownloadHandlerTexture</code> stores received data in a <code>UnityEngine.Texture</code>. On download completion, it will decode JPEGs and PNGs into valid <code>UnityEngine.Texture objects</code>. Only one copy of the <code>UnityEngine.Texture</code> will be created per <code>DownloadHandlerTexture</code> object, which will reduce performance hits from garbage collection.</li>
+<li>
+<code>DownloadHandlerAssetBundle</code> streams received data into Unity’s asset bundle system. Once the asset bundle system has received enough data, the asset bundle will be available as a <code>UnityEngine.AssetBundle</code> object. As above, only one copy of the <code>UnityEngine.AssetBundle</code> object will be created to reduce memory impact.</li>
+<li>
+<code>DownloadHandlerScript</code> is a special class. On its own, it will do nothing. However, this class can be inherited by a user-defined class. This class will receive callbacks from the UnityWebRequest system, which can then be used to perform completely custom handling of data as it arrives from the network.</li>
+</ul>
+
+<p>A specialized Download Handler for Audio Clips is also available. The APIs are analogous to <code>DownloadHandlerTexture</code>’s interface.</p>
+
+<h4>Simple Data Storage: DownloadHandlerBuffer</h4>
+
+<p>This download handler is the simplest and handles the majority of use cases. It simply stores received data in a (native-code) buffer. When the download is complete, you may access the buffered data either as an array of bytes or as a UTF8 string.</p>
+
+<pre><code>Example:
+using UnityEngine;
+using System.Collections;
+ 
+class MyBehaviour: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(GetText());
+    }
+ 
+    IEnumerator GetText() {
+        UnityWebRequest www = new UnityWebRequest(&quot;http://www.my-server.com&quot;);
+        www.downloadHandler = new DownloadHandlerBuffer();
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            // Show results as text
+            Debug.Log(www.downloadHandler.text);
+ 
+            // Or retrieve results as binary data
+            byte[] results = www.downloadHandler.data;
+        }
+    }
+}
+</code></pre>
+
+<h4>Downloading Pictures: DownloadHandlerTexture</h4>
+
+<p>While you could use a <code>DownloadHandlerBuffer</code> to download an image file and then create a texture from the raw bytes using <code>Texture.LoadImage</code>, it’s more efficient to use <code>DownloadHandlerTexture</code>.</p>
+
+<p>This download handler performs buffering, decompression and texture creation in native code. Further, decompression and texture creation are performed on a worker thread instead of the main thread, which can improve frame time when loading large textures.</p>
+
+<p>Finally, <code>DownloadHandlerTexture</code> only allocates managed memory when finally creating the Texture itself, which eliminates the garbage collection overhead associated with performing the byte-to-texture conversion in script.</p>
+
+<p>The following example downloads a PNG from the internet, converts it to a Sprite and assigns it to a uGUI Image:</p>
+
+<pre><code>using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+[RequireComponent(typeof(UnityEngine.UI.Image))]
+public class ImageDownloader : MonoBehaviour {
+    UnityEngine.UI.Image _img;
+ 
+    void Start () {
+        _img = GetComponent&lt;UnityEngine.UI.Image&gt;();
+        Download(&quot;http://www.mysite.com/myimage.png&quot;);
+    }
+ 
+    public void Download(string url) {
+        StartCoroutine(LoadFromWeb(url));
+    }
+ 
+    IEnumerator LoadFromWeb(string url)
+    {
+        UnityWebRequest wr = new UnityWebRequest(url);
+        DownloadHandlerTexture texDl = new DownloadHandlerTexture(true);
+        wr.downloadHandler = texDl;
+        yield return wr.Send();
+        if(!wr.isError) {
+            Texture2D t = texDl.texture;
+            Sprite s = Sprite.Create(t, new Rect(0, 0, t.width, t.height),
+                                     Vector2.zero, 1f);
+            _img.sprite = s;
+        }
+    }
+}
+</code></pre>
+
+<h4>Fetching Asset Bundles: DownloadHandlerAssetBundle</h4>
+
+<p>The advantage to this specialized download handler is that it is capable of streaming data to Unity’s asset bundle system. This considerably reduces runtime memory allocation, as well as the memory impact of loading your asset bundles. Further, it allows asset bundles to be partially used while not fully downloaded - that is, you can stream assets.</p>
+
+<p>All downloading and decompression occurs on worker threads.</p>
+
+<p>Asset Bundles are downloaded via a <code>DownloadHandlerAssetBundle</code> object, which has a special <code>assetBundle</code> property to retrieve the asset bundle.
+Due to the way the Asset Bundle system works, all asset bundles must have an address associated with them. Generally, this is the nominal URL at which they’re located (i.e. the URL prior to redirects). In almost all cases, you should simply pass in the same URL as you passed to the UnityWebRequest. When using the HLAPI, this is done for you.</p>
+
+<p>Example:</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+ 
+class MyBehaviour: public MonoBehaviour {
+    void Start() {
+        StartCoroutine(GetAssetBundle());
+    }
+ 
+    IEnumerator GetAssetBundle() {
+        UnityWebRequest www = new UnityWebRequest(&quot;http://www.my-server.com&quot;);
+        DownloadHandlerAssetBundle handler = new DownloadHandlerAssetBundle(www.url);
+        www.downloadHandler = handler;
+        yield return www.Send();
+ 
+        if(www.isError) {
+            Debug.Log(www.error);
+        }
+        else {
+            // Extracts asset bundle
+            AssetBundle bundle = handler.assetBundle;
+        }
+    }
+}
+</code></pre>
+
+<h4>Do It Yourself: DownloadHandlerScript</h4>
+
+<p>For power users who require full control over the processing of downloaded data, Unity provides the <code>DownloadHandlerScript</code> class.</p>
+
+<p>By default, instances of this class will do nothing. However, if you derive your own classes from <code>DownloadHandlerScript</code>, you may override certain methods and use them to receive callbacks as data arrives from the network.</p>
+
+<p>Note: Even though the actual downloads occur on a worker thread, all <code>DownloadHandlerScript</code> callbacks operate on the main thread. Avoid performing computationally-heavy operations during these callbacks.</p>
+
+<h5>Methods to Override</h5>
+
+<pre><code>protected void ReceiveContentLength(long contentLength);
+</code></pre>
+
+<p>This method is called when the Content-Length header is received.</p>
+
+<p>Note: This callback may occur multiple times if your server issues one or more redirect responses over the course of processing your UnityWebRequest.</p>
+
+<pre><code>protected void OnContentComplete();
+</code></pre>
+
+<p>This method is called when the UnityWebRequest has fully downloaded all data from the server, and has forwarded all received data to the ReceiveData callback.</p>
+
+<pre><code>protected bool ReceiveData(byte[] data, long dataLength);
+</code></pre>
+
+<p>This method is called after data has arrived from the remote server. This method will be called once per frame. The data argument contains the raw bytes received from the remote server, and dataLength indicates the length of new data in the data array.</p>
+
+<p>When not using pre-allocated data buffers, the system will create a new byte array each time it calls this callback, and dataLength will always be equal to <code>data.Length</code>. When using pre-allocated data buffers, the data buffer will be reused and <code>dataLength</code> must be used to find the number of updated bytes.</p>
+
+<p>This method requires a return value of either true or false. If you return false, the system will immediately abort the UnityWebRequest. If you return true, processing will continue normally.</p>
+
+<h5>For more on preallocated data buffers, see the following subsection.</h5>
+
+<h6>Avoiding GC Overhead: DownloadHandlerScripts with pre-allocated buffers</h6>
+
+<p>Many of Unity’s power users are constantly concerned with reducing CPU spikes due to garbage collection. For these users, the UnityWebRequest system permits the pre-allocation of a managed-code byte array which will be used to deliver downloaded data to DownloadHandlerScript’s <code>ReceiveData</code> callback.</p>
+
+<p>Using this method completely eliminates managed-code memory allocation when using DownloadHandlerScript-derived classes to capture downloaded data.</p>
+
+<p>To make a <code>DownloadHandlerScript</code> operate with a pre-allocated managed buffer, simply supply a byte array to the constructor of <code>DownloadHandlerScript</code>.</p>
+
+<p>Note: The size of the byte array limits the amount of data delivered to the ReceiveData callback each frame. Do not provide too small of a byte array or your data will arrive slowly, over many frames.</p>
+
+<p>Example</p>
+
+<pre><code>using UnityEngine;
+using System.Collections;
+
+public class LoggingDownloadHandler : DownloadHandlerScript {
+
+    // Standard scripted download handler - will allocate memory on each ReceiveData callback
+    public LoggingDownloadHandler(): base() {
+    }
+
+    // Pre-allocated scripted download handler
+    // Will reuse the supplied byte array to deliver data.
+    // Eliminates memory allocation.
+    public LoggingDownloadHandler(byte[] buffer): base(buffer) {
+    }
+
+    // Required by DownloadHandler base class. Called when you address the 'bytes' property.
+    protected override byte[] GetData() { return null; }
+
+    // Called once per frame when data has been received from the network.
+    protected override bool ReceiveData(byte[] data, int dataLength) {
+        if(data == null || data.Length &lt; 1) {
+            Debug.Log(&quot;LoggingDownloadHandler :: ReceiveData - received a null/empty buffer&quot;);
+            return false;
+        }
+
+        Debug.Log(string.Format(&quot;LoggingDownloadHandler :: ReceiveData - received {0} bytes&quot;, dataLength));
+        return true;
+    }
+
+    // Called when all data has been received from the server and delivered via ReceiveData
+    protected override void CompleteContent() {
+        Debug.Log(&quot;LoggingDownloadHandler :: CompleteContent - DOWNLOAD COMPLETE!&quot;);
+    }
+
+    // Called when a Content-Length header is received from the server.
+    protected override void ReceiveContentLength(int contentLength) {
+        Debug.Log(string.Format(&quot;LoggingDownloadHandler :: ReceiveContentLength - length {0}&quot;, contentLength));
+    }
+}
+</code></pre>
+<div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="MobileNetworking.html"></a></span><div class="tip">Networking Tips for Mobile devices.</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="UNetReference.html"></a></span><div class="tip">Networking Reference</div>
+</div>
+</div>
+</div>
+<div class="footer-wrapper"><div class="footer clear">
+<div class="copy">
+<known_issues><p>Is something described here not working as you expect it to? It might be a <b>Known Issue</b>. Please check with the Issue Tracker at <a href="http://issuetracker.unity3d.com">issuetracker.unity3d.com</a>.</p></known_issues>Copyright © 2016 Unity Technologies. Publication 5.4b-R</div>
+<div class="menu">
+<a href="http://unity3d.com/learn">Tutorials</a><a href="http://answers.unity3d.com">Community Answers</a><a href="https://support.unity3d.com/hc/en-us">Knowledge Base</a><a href="http://forum.unity3d.com">Forums</a><a href="http://unity3d.com/asset-store">Asset Store</a>
+</div>
+</div></div>
+</div></div></div>
+</div>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC35ML" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC35ML');</script>
+</body>
+</html>

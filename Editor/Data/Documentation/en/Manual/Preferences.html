@@ -1,0 +1,342 @@
+<!DOCTYPE html><html lang="en" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unity - Manual: Preferences</title>
+<meta name="description" content="The Unity Manual helps you learn and use the Unity engine. With the Unity engine you can create 2D and 3D games, apps and experiences.">
+<meta name="author" content="Unity Technologies">
+<link rel="shortcut icon" href="../StaticFilesManual/images/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="../StaticFilesManual/images/favicons/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../StaticFilesManual/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../StaticFilesManual/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../StaticFilesManual/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../StaticFilesManual/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../StaticFilesManual/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" href="../StaticFilesManual/images/favicons/apple-touch-icon.png">
+<meta name="msapplication-TileColor" content="#222c37">
+<meta name="msapplication-TileImage" content="../StaticFilesManual/images/favicons/tileicon-144x144.png">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2854981-1']);
+  _gaq.push(['_setDomainName', 'unity3d.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script><script type="text/javascript" src="../StaticFilesManual/js/jquery.js?ts=1503962755"></script><script type="text/javascript" src="../StaticFilesManual/js/core.js?ts=1503962755"></script><script type="text/javascript" src="docdata/toc.js?ts=1503962755"></script><script type="text/javascript" src="docdata/global_toc.js?ts=1503962755"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../StaticFilesManual/css/core.css?ts=1503962755">
+</head>
+<body>
+<div class="header-wrapper">
+<div id="header" class="header"><div class="content">
+<div class="spacer"><div class="menu">
+<div class="logo"><a href="http://docs.unity3d.com"></a></div>
+<div class="search-form"><form action="30_search.html" method="get" class="apisearch">
+<input type="text" name="q" placeholder="Search manual..." autosave="Unity Reference" results="5" class="sbox field" id="q"><input type="submit" class="submit">
+</form></div>
+<ul>
+<li><a href="../Manual/index.html" class="selected">Manual</a></li>
+<li><a href="../ScriptReference/index.html">Scripting API</a></li>
+</ul>
+</div></div>
+<div class="more">
+<div class="filler"></div>
+<ul><li><a href="http://unity3d.com/">unity3d.com</a></li></ul>
+</div>
+</div></div>
+<div class="toolbar"><div class="content">
+<div class="version-number">Version: <b>5.4 beta</b> (<a href="http://docs.unity3d.com/530/Documentation/Manual">switch to 5.3</a>)</div>
+<div class="lang-switcher">
+<div class="current toggle" data-target=".lang-list">
+<div class="lbl">Language: <span class="b">English</span>
+</div>
+<div class="arrow"></div>
+</div>
+<div class="lang-list" style="display:none;"><ul>
+<li><a href="/Manual/">English</a></li>
+<li><a href="/ja/current/Manual/">日本語</a></li>
+<li><a href="/es/current/Manual/">Español</a></li>
+<li><a href="/kr/current/Manual/">한국어</a></li>
+<li><a href="/ru/current/Manual/">Русский</a></li>
+</ul></div>
+</div>
+</div></div>
+</div>
+<div id="master-wrapper" class="master-wrapper clear">
+<div id="sidebar" class="sidebar"><div class="sidebar-wrap"><div class="content"><div class="sidebar-menu"><div class="toc"><h2>Unity Manual</h2></div></div></div></div></div>
+<div id="content-wrap" class="content-wrap"><div class="content-block"><div class="content">
+<div class="section">
+<div class="breadcrumbs clear"><ul>
+<li><a href="UnityManual.html">Unity Manual</a></li>
+<li><a href="UnityOverview.html">Working In Unity</a></li>
+<li><a href="EditorFeatures.html">Editor Features</a></li>
+<li>Preferences</li>
+</ul></div>
+<div class="mb20"><div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="2DAnd3DModeSettings.html"></a></span><div class="tip">2D and 3D Mode Settings</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="BuildSettings.html"></a></span><div class="tip"> Build Settings</div>
+</div>
+</div></div>
+<h1>Preferences</h1>
+<!--BeginSwitchLink--><!--EndSwitchLink-->
+<div class="clear"></div>
+
+<p>Unity provides a number of preference panels to allow you to customise the behaviour of the editor.</p>
+
+<h2>General</h2>
+
+<figure>
+<img src="../uploads/Main/PrefsGeneral.png" alt="">
+</figure>
+
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:left;">
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;"></th>
+	<th style="text-align:left;"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;"><strong>Auto Refresh</strong></td>
+	<td style="text-align:left;">Should the editor update assets automatically as they change?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Load Previous Project on Startup</strong></td>
+	<td style="text-align:left;">Should the previous project be shown at startup?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Compress Assets On Import</strong></td>
+	<td style="text-align:left;">Should assets be compressed automatically during import?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>OSX Color Picker</strong></td>
+	<td style="text-align:left;">
+<strong>Mac OSX Only:</strong> Should the native OSX color picker be used instead of Unity’s own?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Disable Editor Analytics</strong></td>
+	<td style="text-align:left;">Can the editor send information back to Unity automatically?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Show Asset Store search hits</strong></td>
+	<td style="text-align:left;">Should the number of free/paid assets from the store be shown in the Project Browser?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Verify Saving Assets</strong></td>
+	<td style="text-align:left;">Should Unity verify which assets to save individually on quitting?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Editor Skin </strong></td>
+	<td style="text-align:left;">Which color scheme should Unity use for the editor? Professional users have the option of dark grey in addition to the default light grey Personal skin.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Enable Alpha Numeric Sorting </strong></td>
+	<td style="text-align:left;">This option enables a new button in the top right corner of the <a href="Hierarchy.html">Hierarchy</a> window, allowing you to switch between Transform sort (which is the default behaviour) and Alphanumeric sort.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>External Tools</h2>
+
+<figure>
+<img src="../uploads/Main/PrefsExtTools.png" alt="">
+</figure>
+
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:left;">
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;"></th>
+	<th style="text-align:left;"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;"><strong>External Script Editor</strong></td>
+	<td style="text-align:left;">Which application should Unity use to open script files?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Add .unityproj’s to .sln</strong></td>
+	<td style="text-align:left;">Should Unity add UnityScript (.unityproj) and Boo (.booproj) projects to the generated solution (.sln) file? Enabled by default for MonoDevelop and disabled by default for Visual Studio.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Editor Attaching</strong></td>
+	<td style="text-align:left;">Should Unity allow debugging to be controlled from the external script editor?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Image Application</strong></td>
+	<td style="text-align:left;">Which application should Unity use to open image files?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Revision Control Diff/Merge</strong></td>
+	<td style="text-align:left;">Which application should Unity use to resolve file differences with the asset server?</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Colors</h2>
+
+<figure>
+<img src="../uploads/Main/PrefsColors.png" alt="">
+</figure>
+
+<p>This panel allows you to choose the colors that Unity uses when displaying various user interface elements.</p>
+
+<h2>Keys</h2>
+
+<figure>
+<img src="../uploads/Main/PrefsKeys.png" alt="">
+</figure>
+
+<p>This panel allows you to set the keystrokes that activate the various commands in Unity.</p>
+
+<h2>GI Cache</h2>
+
+<figure>
+<img src="../uploads/Main/PrefsGICache.png" alt="">
+</figure>
+
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:left;">
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;"></th>
+	<th style="text-align:left;"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;"><strong>Maximum Cache Size (Gb)</strong></td>
+	<td style="text-align:left;">The GI cache folder will be kept below this size whenever possible. A background job will periodically clear out unused files.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Custom Cache Location</strong></td>
+	<td style="text-align:left;">Allows a custom location for the GI cache. The cache folder will be shared between all projects.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Cache compression</strong></td>
+	<td style="text-align:left;">This enables a fast real time compression of the GI Cache files to reduce the size of the generated data. If you need to access the raw Enlighten data you should disable Cache Compression and clean the cache.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Clean Cache</strong></td>
+	<td style="text-align:left;">Use this button to clean the cache.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Cache Size</strong></td>
+	<td style="text-align:left;">Current Cache size.</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Cache Location</strong></td>
+	<td style="text-align:left;">Current Cache location.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>2D</h2>
+
+<figure>
+<img src="../uploads/Main/Prefs2D.png" alt="">
+</figure>
+
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:left;">
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;"></th>
+	<th style="text-align:left;"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;"><strong>Maximum Sprite Atlas Cache Size (GB)</strong></td>
+	<td style="text-align:left;"></td>
+</tr>
+</tbody>
+</table>
+
+<h2>Cache Server</h2>
+
+<figure>
+<img src="../uploads/Main/PrefsCacheServer.png" alt="">
+</figure>
+
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:left;">
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;"></th>
+	<th style="text-align:left;"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;"><strong>Use Cache Server</strong></td>
+	<td style="text-align:left;">Should the cache server be enabled?</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>IP Address</strong></td>
+	<td style="text-align:left;">IP address of the cache server, if enabled</td>
+</tr>
+</tbody>
+</table>
+
+<div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="2DAnd3DModeSettings.html"></a></span><div class="tip">2D and 3D Mode Settings</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="BuildSettings.html"></a></span><div class="tip"> Build Settings</div>
+</div>
+</div>
+</div>
+<div class="footer-wrapper"><div class="footer clear">
+<div class="copy">
+<known_issues><p>Is something described here not working as you expect it to? It might be a <b>Known Issue</b>. Please check with the Issue Tracker at <a href="http://issuetracker.unity3d.com">issuetracker.unity3d.com</a>.</p></known_issues>Copyright © 2016 Unity Technologies. Publication 5.4b-R</div>
+<div class="menu">
+<a href="http://unity3d.com/learn">Tutorials</a><a href="http://answers.unity3d.com">Community Answers</a><a href="https://support.unity3d.com/hc/en-us">Knowledge Base</a><a href="http://forum.unity3d.com">Forums</a><a href="http://unity3d.com/asset-store">Asset Store</a>
+</div>
+</div></div>
+</div></div></div>
+</div>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC35ML" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC35ML');</script>
+</body>
+</html>
