@@ -1,0 +1,589 @@
+THIRD PARTY NOTICES
+This Third Party Notices file provides notices and information about the third party code or other materials listed below ("Third Party Software") which are included with the Software. Unity reserves all other rights to the Third Party Software not expressly granted by Unity, whether by implication, estoppel or otherwise. The notices and licenses below are provided for informational purposes only.  Copies of certain common open source licenses are included in Appendix A rather than in the Third Party Notices below.
+
+Enlighten. Copyright (c) 2014 Geomerics Ltd. 
+FleXcroll. (c) 2015 Emrah BASKAYA.  FleXcroll Unlimited-Use Commercial License, licensed to Unity Technologies under the following license agreement: http://www.hesido.com/licenses.php?page=flexcrollcommercialunlimited.
+FMOD. Copyright (c) Firelight Technologies Pty, Ltd.
+Mongoose. Copyright (c) 2013-2015 Cesanta Software Limited.
+The Mono runtime libraries are licensed from Novell.
+PhysX SDK.  Copyright (c) 2002-2016 NVIDIA Corporation.  All rights reserved. Use of the PhysX SDK requires agreeing to and complying with the NVIDIA GameWorks EULA terms accessed via: https://developer.nvidia.com/content/apply-access-nvidia-physx-source-code. (Accessing the EULA requires joining the GameWorks NVIDIA Developer Program at: https://developer.nvidia.com/programs/gamedev/register.)
+PVRTexTool and PowerVR Light Mapping. (c) Imagination Technologies LLC.  All rights reserved.
+Substance. Copyright (c) Allegorithmic.
+TetGen. Copyright (c) Hang Si of the Research Group: Numerical Mathematics and Scientific Computing, Weierstrass Institute for Applied Analysis and Stochastics (WIAS).
+Umbra. Copyright (c) Umbra Software Ltd.  
+++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++
+7-Zip Command line version | GNU Library General Public License v.2 or later
+Copyright (c) 1999-2015 Igor Pavlov.
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public License for more details.  
+++++++++++++++++++++++++++++++
+AES encryption algorithm
+Copyright (c) 2001 Dr. Brian Gladman <brg@gladman.me.uk>, Worcester, UK.  All rights reserved.
+The free distribution and use of this software in both source and binary form is allowed (with or without changes) provided that:
+1. distributions of this source code include the above copyright notice, this list of conditions and the following disclaimer;
+2. distributions in binary form include the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other associated materials;
+3. the copyright holder's name is not used to endorse products built using this software without specific written permission.
+DISCLAIMER: This software is provided 'as is' with no explicit or implied warranties in respect of its properties, including, but not limited to, correctness and fitness for purpose.
+++++++++++++++++++++++++++++++
+amdefine node module | Dual licensed under MIT and BSD 3-Clause License
+BSD 3-Clause License, Copyright (c) 2011-2015, The Dojo Foundation.  All rights reserved.
+MIT License, Copyright (c) 2011-2015, The Dojo Foundation.  
+++++++++++++++++++++++++++++++
+angular | MIT License
+Copyright (c) 2010-2014 Google, Inc. http://angularjs.org 
+++++++++++++++++++++++++++++++
+angular-ui | MIT License
+Copyright (c) 2012-2014 the AngularUI Team, https://github.com/organizations/angular-ui/teams/291112
+++++++++++++++++++++++++++++++
+async node module | MIT License
+Copyright (c) 2010 Caolan McMahon
+++++++++++++++++++++++++++++++
+Boo | BSD 3-Clause License
+Copyright (c) 2003 - 2008 Rodrigo B. Oliveira
+++++++++++++++++++++++++++++++
+Boost | Boost Software License - Version 1.0 - August 17th, 2003
+++++++++++++++++++++++++++++++
+bootstrap | MIT License
+Copyright (c) 2014 Twitter.  http://getbootstrap.com/
+++++++++++++++++++++++++++++++
+Bouncy Castle Crypto APIs | MIT License
+Copyright (c) 2000 - 2015 The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)
+++++++++++++++++++++++++++++++
+bstring | BSD 3-Clause License 
+Copyright (c) 2002-2008 Paul Hsieh.  All rights reserved.
+++++++++++++++++++++++++++++++
+camelcase node module | MIT License
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+++++++++++++++++++++++++++++++
+cecil | MIT License
+Copyright (c) 2008 - 2015 Jb Evain.  Copyright (c) 2008 - 2011 Novell, Inc.
+++++++++++++++++++++++++++++++
+Cg Toolkit | License: http://developer.download.nvidia.com/cg/Cg_2.2/license.pdf
+Copyright (c) 2004-2012 NVIDIA Corporation. All rights reserved.
+++++++++++++++++++++++++++++++
+Chromium Embedded Framework (CEF) | BSD 3-Clause License
+Copyright (c) 2008-2015 Marshall A. Greenblatt.  All rights reserved.
+++++++++++++++++++++++++++++++
+crunch | zlib/libpng License
+Copyright (c) 2010-2012 Rich Geldreich and Tenacious Software LLC
+++++++++++++++++++++++++++++++
+decamelize node module | MIT License
+Copyright (c) [Sindre Sorhus] (http://sindresorhus.com)
+++++++++++++++++++++++++++++++
+double-conversion License | BSD 3-Clause License
+Copyright (c) 2011 MailRank, Inc. All rights reserved.
+++++++++++++++++++++++++++++++
+dynamic_bitset
+Copyright (c) 2001 - 2002 Chuck Allison and Jeremy Siek, Copyright (c) 2003-2004, Gennaro Prota, Copyright (c) 2014 Ahmed Charles and Glen Fernandes.
+Permission to copy, use, modify, sell and distribute this software is granted provided this copyright notice appears in all copies.  This software is provided as is without express or implied warranty, and with no claim as to its suitability for any purpose.
+++++++++++++++++++++++++++++++
+FileMD5Hash | Apache License 2.0
+Copyright (c) 2010-2014 Joel Lopes Da Silva. All rights reserved.
+++++++++++++++++++++++++++++++
+FreeImage open source image library | FreeImage Public License, version 1.0
+Copyright (c) 2003-2008 FreeImage (freeimage.sourceforge.net).
+++++++++++++++++++++++++++++++
+FreeType
+Portions of this software are copyright 2007 The FreeType Project (www.freetype.org).  All rights reserved.
+++++++++++++++++++++++++++++++
+gen_uuid.c --- generate a DCE-compatible uuid | BSD 3-Clause License
+Copyright (c) 1996, 1997, 1998, 1999 Theodore Ts'o
+++++++++++++++++++++++++++++++
+GLSL Optimizer | MIT License
+Copyright (c) 1999-2007 Brian Paul.  All rights reserved. Copyright (c) 2010-2013 Unity Technologies.  All rights reserved.  
+++++++++++++++++++++++++++++++
+Google SparseHash | BSD 3-Clause License
+Copyright (c) 2005, Google Inc.  All rights reserved.
+++++++++++++++++++++++++++++++
+HLSLcc - HLSL Cross compiler | MIT License
+Copyright (c) 2012 James Jones.  All rights reserved.
+Optimizations and fixes (c) 2014-2015 Unity Technologies.  All rights reserved.
+++++++++++++++++++++++++++++++
+iniparser | MIT License
+Copyright (c) 2000-2011 Nicolas Devillard
+++++++++++++++++++++++++++++++
+ISPC Texture compressor license | BSD 3-Clause License
+Copyright (c) 2013-2015, Intel Corporation.  All rights reserved. 
+++++++++++++++++++++++++++++++
+jpeglib.h JPEG library
+Copyright (c) 1991-1998 Thomas G. Lane
+This software is based in part on the work of the Independent JPEG Group.
+++++++++++++++++++++++++++++++
+jQuery | MIT License
+Copyright (c) 2012 jQuery Foundation and other contributors.  
+++++++++++++++++++++++++++++++
+JSON parser / generator for C# | MIT License
+Copyright (c) 2013 WyrmTale Games.  
+++++++++++++++++++++++++++++++
+libcurl
+Copyright (c) 1996 - 2016 Daniel Stenberg daniel@haxx.se, and many contributors, see the THANKS file.  All rights reserved.
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
+++++++++++++++++++++++++++++++
+The Liberation(tm) font version 2.00.0 onward are Licensed under the SIL Open Font License, Version 1.1.  
+Copyright (c) 2003-2015, SIL International.  All rights reserved.
+++++++++++++++++++++++++++++++
+libjpeg-turbo
+Copyright (c) 1991-2012 Thomas G. Lane, Guido Vollbeding
+All rights reserved except as specified below.
+The authors make NO WARRANTY or representation, either express or implied, with respect to this software, its quality, accuracy, merchantability, or fitness for a particular purpose.  This software is provided "AS IS", and you, its user, assume the entire risk as to its quality and accuracy.
+Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions:
+(1) If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation.
+(2) If only executable code is distributed, then the accompanying documentation must state that "this software is based in part on the work of the Independent JPEG Group".
+(3) Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind.
+These conditions apply to any software derived from or based on the IJG code, not just to the unmodified library.  If you use our work, you ought to acknowledge us.
+Permission is NOT granted for the use of any IJG author's name or company name in advertising or publicity relating to this software or products derived from it.  This software may be referred to only as "the Independent JPEG Group's software".
+We specifically permit and encourage the use of this software as the basis of commercial products, provided that all warranty or liability claims are assumed by the product vendor.
+The Unix configuration script "configure" was produced with GNU Autoconf. It is copyright by the Free Software Foundation but is freely distributable.  The same holds for its supporting scripts (config.guess, config.sub, ltmain.sh).  Another support script, install-sh, is copyright by X Consortium but is also freely distributable.
+The IJG distribution formerly included code to read and write GIF files.  To avoid entanglement with the Unisys LZW patent, GIF reading support has been removed altogether, and the GIF writer has been simplified to produce "uncompressed GIFs".  This technique does not use the LZW algorithm; the resulting GIF files are larger than usual, but are readable by all standard GIF decoders.
+We are required to state that
+"The Graphics Interchange Format(c) is the Copyright property of CompuServe Incorporated.  GIF(sm) is a Service Mark property of CompuServe Incorporated."
+++++++++++++++++++++++++++++++
+libpng PNG reference library
+Copyright (c) 1998-2007 Glenn Randers-Pehrson
+Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger
+Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+The PNG Reference Library is supplied "AS IS". The Contributing Authors and Group 42, Inc. disclaim all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The Contributing Authors and Group 42, Inc. assume no liability for direct, indirect, incidental, special, exemplary, or consequential damages, which may result from the use of the PNG Reference Library, even if advised of the possibility of such damage.
+++++++++++++++++++++++++++++++
+libtheora | BSD 3-Clause License
+Copyright (c) 2002-2009 Xiph.org Foundation
+++++++++++++++++++++++++++++++
+libvorbis | BSD 3-Clause License
+Copyright (c) 2002-2009 Xiph.org Foundation
+++++++++++++++++++++++++++++++
+libvx and libwebm | BSD 3-Clause License 
+Copyright (c) 2010, Google Inc. All rights reserved.
+++++++++++++++++++++++++++++++
+libwebsockets - small server side websockets and web server implementation | GNU Library General Public License (LGPL) 2.1, with the following exceptions
+Copyright (c) 2010-2015 Andy Green <andy@warmcat.com>
+Libwebsockets and included programs are provided under the terms of the GNU Library General Public License (LGPL) 2.1, with the following exceptions:
+1) Static linking of programs with the libwebsockets library does not constitute a derivative work and does not require the author to provide source code for the program, use the shared libwebsockets libraries, or link their program against a user-supplied version of libwebsockets.  If you link the program to a modified version of libwebsockets, then the changes to libwebsockets must be provided under the terms of the LGPL in sections 1, 2, and 4.
+2) You do not have to provide a copy of the libwebsockets license with programs that are linked to the libwebsockets library, nor do you have to identify the libwebsockets license in your program or documentation as required by section 6 of the LGPL.
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+++++++++++++++++++++++++++++++
+Little CMS (LCMS) | MIT License
+Copyright (c) 1998-2015 Marti Maria Saguer.  All rights reserved. 
+++++++++++++++++++++++++++++++
+LZ4 - Fast LZ compression algorithm | BSD 2-Clause License
+Copyright (c) 2011-2014 Yann Collet 
+++++++++++++++++++++++++++++++
+Mesa 3-D graphics library | MIT License
+Copyright (c) 1999-2005 Brian Paul.  All rights reserved.  
+++++++++++++++++++++++++++++++
+Microsoft Reference Source | MIT/X11 License
+Copyright (c) Microsoft Corporation
+++++++++++++++++++++++++++++++
+The Mono C# Compiler and Tools, Copyright © 2005 - 2008 Novell, Inc.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+++++++++++++++++++++++++++++++
+The Mono Class Library | MIT License
+Copyright (c) 2005 - 2008 Novell, Inc.
+++++++++++++++++++++++++++++++
+MonoDevelop | MIT License
+Copyright (c) MonoDevelop Project
+The modifications made by Unity are available on github.
+++++++++++++++++++++++++++++++
+node modules | MIT License
+minimist, optimist, wordwrap (Copyright (c) 2010 James Halliday (mail@substack.net)):
+options, ws (Copyright (c) 2012 Einar Otto Stangvik (einaros@gmail.com)):
+policyfile (Copyright (c) 2011 Arnout Kazemier, 3rd-Eden): 
+Ultron [Made by unshift]
+++++++++++++++++++++++++++++++
+NUnit | NUnit License
+Copyright (c) 2002-2014 Charlie Poole
+Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright (c) 2000-2002 Philip A. Craig
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment (see the following) in the product documentation is required. 
+Portions Copyright (c) 2002-2014 Charlie Poole or Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov or Copyright (c) 2000-2002 Philip A. Craig 
+Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software. 
+This notice may not be removed or altered from any source distribution. 
+Used version of NUnit is altered. Source code can be found at https://github.com/Unity-Technologies/nunitv2
+++++++++++++++++++++++++++++++
+Oculus VR SDK | Oculus VR, LLC Software Development Kit License Agreement, found at: https://developer.oculus.com/licenses/pc-3.2/
+Copyright (c) 2014 Oculus VR, LLC All rights reserved.
+++++++++++++++++++++++++++++++
+Oolong Engine | MIT License
+Copyright (c) 2007-2008 Wolfgang Engel.  
+++++++++++++++++++++++++++++++
+OpenSSL | The OpenSSL toolkit stays under a dual license, i.e., both the conditions of the OpenSSL License and the Original SSLeay license apply to the toolkit. See below for the actual license texts. Actually both licenses are BSD-style Open Source licenses.  In case of any license issues related to OpenSSL please contact openssl-core@openssl.org. 
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com).
+++++++++++++++++++++++++++++++
+paintlib (PICT source only). Copyright © 1996-2002 Ulrich von Zadow and other contributors
+The paintlib source code is supplied "AS IS". Ulrich von Zadow and other contributors disclaim all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The authors assume no liability for direct, indirect, incidental, special, exemplary, or consequential damages, which may result from the use of paintlib, even if advised of the possibility of such damage.
+Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose, without fee, subject to the following restrictions:
+1. The origin of this source code must not be misrepresented.
+2. Altered versions must be plainly marked as such and must not be misrepresented as being the original source.
+3. This Copyright notice may not be removed or altered from any source or altered source distribution.
+4. Executables containing paintlib or parts of it must state that the software "contains paintlib code. paintlib is copyright (c) 1996-2002 Ulrich von Zadow and other contributors." This notice must be displayed in at least one place where the copyright for the software itself is displayed. The documentation must also contain this notice.
+++++++++++++++++++++++++++++++
+Pako zlib for JavaScript | MIT License.
+Copyright (C) 2014-2015 by Vitaly Puzrin
+++++++++++++++++++++++++++++++
+Particle Trimmer
+Copyright (c) 2009 Emil "Humus" Persson (www.humus.name)
+This tool is freeware and may be used by anyone for any purpose and may be distributed freely to anyone using any distribution media or distribution method as long as this file is included.
+++++++++++++++++++++++++++++++
+PostgreSQL Database Management System (formerly known as Postgres, then as Postgres95)
+Portions Copyright (c) 1996 - 2005 The PostgreSQL Global Development Group
+Portions Copyright (c) 1994 The Regents of the University of California
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without a written agreement is hereby granted, provided that the above copyright notice and this paragraph and the following two paragraphs appear in all copies.
+IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+++++++++++++++++++++++++++++++
+Pubnub C/C++ client libraries | MIT License
+Copyright (c) 2015 PubNub
+++++++++++++++++++++++++++++++
+Qt GUI Toolkit, cross-platform application and UI framework | GNU Lesser General Public License, Version 2.1
+Copyright (c) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors. 
+Qt Toolkit is licensed (see http://qt-project.org/doc/qt-5/lgpl.html) under GNU Lesser General Public License, Version 2.1, February 1999.  Copyright (c) 1991, 1999 Free Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+++++++++++++++++++++++++++++++
+Raknet | BSD 2-Clause License
+Copyright (c) 2014, Oculus VR, Inc.  All rights reserved.
+++++++++++++++++++++++++++++++
+rapidjson | MIT License
+Copyright (c) 2011 Milo Yip.
+++++++++++++++++++++++++++++++
+Recast / Detour | zlib/libpng License
+Copyright (c) 2009-2010 Mikko Mononen memon@inside.org
+++++++++++++++++++++++++++++++
+Registered-domain-libs | Apache License 2.0
+Florian Sager, 2009-02-05, sager@agitos.de, http://www.agitos.de
+++++++++++++++++++++++++++++++
+rg_etc1 | zlib License
+Copyright (c) 2012 Rich Geldreich
+++++++++++++++++++++++++++++++
+Scintilla and SciTE
+Copyright (c) 1998-2008 Neil Hodgson (neilh@scintilla.org). All rights reserved.
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.
+NEIL HODGSON DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL NEIL HODGSON BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+++++++++++++++++++++++++++++++
+Sketchup SDK
+Copyright (c) 2012 Trimble Navigation Limited.  All rights reserved. 
+Use of the Sketchup SDK require compliance with any applicable law, as well as compliance with and agreement to these terms of service:  http://www.sketchup.com/intl/en/developer/api-terms-of-service.pdf
+++++++++++++++++++++++++++++++
+source-map node module | BSD 3-Clause License
+Copyright (c) 2009-2011, Mozilla Foundation and contributors.  All rights reserved.
+++++++++++++++++++++++++++++++
+C# version of TinySegmenter. Super compact Japanese tokenizer in Javascript.  Ported by Yoshiki Shibukawa under MIT license.  
+Original Code Copyright TinySegmenter 0.2 -- Super compact Japanese tokenizer in Javascript. Copyright (c) 2008 Taku Kudo <taku@chasen.org>.  All rights reserved.
+TinySegmenter is freely distributable under the terms of the BSD 3-Clause License
+For details, see http://chasen.org/~taku/software/TinySegmenter/LICENCE.txt
+++++++++++++++++++++++++++++++
+tlsf memory allocator implementation by Matthew Conte (matt@baisoku.org) | Public Domain, no restrictions
+++++++++++++++++++++++++++++++
+Twilight Prophecy SDK | zlib/libpng License
+A multi-platform development system for virtual reality and multimedia.
+Copyright (c) 1997-2003 Twilight 3D Finland Oy Ltd.
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software." License.
+++++++++++++++++++++++++++++++
+udis86 | BSD 2-Clause License 
+Copyright (c) 2002-2009 Vivek Thampi.  All rights reserved.
+++++++++++++++++++++++++++++++
+uglify-to-browserify node module | MIT License
+Copyright (c) 2013 Forbes Lindesay
+++++++++++++++++++++++++++++++
+UglifyJS | BSD 2-Clause License
+Copyright 2012-2013 (c) Mihai Bazon <mihai.bazon@gmail.com>
+++++++++++++++++++++++++++++++
+underscore.js | MIT License
+Copyright (c) 2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors.  http://underscorejs.org
+++++++++++++++++++++++++++++++
+UnityScript | BSD 3-Clause License
+Copyright (c) 2005 - 2008 Rodrigo B. Oliveira
+++++++++++++++++++++++++++++++
+videoInput | https://github.com/ofTheo/videoInput
+Copyright (c) Theodore Watson theo.watson@gmail.com
+++++++++++++++++++++++++++++++
+VP8  | BSD 3-Clause License
+Copyright (c) 2010, Google Inc. All rights reserved.
+++++++++++++++++++++++++++++++
+yargs node module | MIT X11 License
+Copyright 2010 James Halliday (mail@substack.net)
+++++++++++++++++++++++++++++++
+websockify.js.  A JavaScript implementation of the websockify WebSocket-to-TCP bridge/proxy | Licensed under LGPL-3, see http://github.com/kanaka/websockify for more info
+Copyright (c) 2013 Joel Martin (github.com/kanaka)
+Licensed under LGPL-3.
+See http://github.com/kanaka/websockify for more info.
+++++++++++++++++++++++++++++++
+window-size node module | MIT License
+Copyright (c) 2014 Jon Schlinkert
+++++++++++++++++++++++++++++++
+wordwrap node module | MIT license
+++++++++++++++++++++++++++++++
+zlib general purpose compression library
+Copyright (c) 1995-2005 Jean-loup Gailly and Mark Adler
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+++++++++++++++++++++++++++++++
+Written Offer for Source Code
+Certain FOSS Licenses, such as the GNU General Public License, GNU Lesser (or Library) General Public License, Common Public License and Mozilla Public License, require that Unity Technologies make the source code corresponding to those distributed FOSS binaries available under the terms of the same FOSS License.   Recipients who would like to receive a copy of such corresponding source code should submit a written request to Unity Technologies by post at:
+Unity Technologies 
+Attn: FOSS Inquiries, Legal Department
+795 Folsom St., Suite 200
+San Francisco, CA 94107
+United States
+A valid request must identify at least the following: 
+*The name of the FOSS packages for which you are requesting the source code
+*The name and version number of the Unity Technologies product with which the requested FOSS packages are distributed
+*The date you received the Unity Technologies product
+*Your name
+*Your company name (if applicable)
+*Your return postal mailing address and email for delivery of the requested source code 
+*A telephone number in the event we need to reach you.
+We may charge you a fee to cover the cost of physical media and processing. Your request must be sent (i) within three (3) years of the date you received the Unity Technologies product that included the component or binary file(s) that are the subject of your request, or (ii) in the case of code licensed under the GPL v3, for as long as Unity Technologies offers spare parts or customer support for that product model.
+++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++
+APPENDIX A: Referenced Licenses
+
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+1. Definitions.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a. You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b. You must cause any modified files to carry prominent notices stating that You changed the files; and
+c. You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+d. If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+++++++++++++++++++++++++++++++
+Boost | Boost Software License - Version 1.0 - August 17th, 2003
+Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the "Software") to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:
+The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+++++++++++++++++++++++++++++++
+BSD 2-Clause License
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+++++++++++++++++++++++++++++++
+BSD 3-Clause License
+All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+++++++++++++++++++++++++++++++
+FreeImage is used under the FreeImage Public License, version 1.0:
+1. Definitions.
+1.1. "Contributor" means each entity that creates or contributes to the creation of Modifications.
+1.2. "Contributor Version" means the combination of the Original Code, prior Modifications used by a Contributor, and the Modifications made by that particular Contributor.
+1.3. "Covered Code" means the Original Code or Modifications or the combination of the Original Code and Modifications, in each case including portions thereof.
+1.4. "Electronic Distribution Mechanism" means a mechanism generally accepted in the software development community for the electronic transfer of data.
+1.5. "Executable" means Covered Code in any form other than Source Code.
+1.6. "Initial Developer" means the individual or entity identified as the Initial Developer in the Source Code notice required by Exhibit A.
+1.7. "Larger Work" means a work which combines Covered Code or portions thereof with code not governed by the terms of this License.
+1.8. "License" means this document.
+1.9. "Modifications" means any addition to or deletion from the substance or structure of either the Original Code or any previous Modifications. When Covered Code is released as a series of files, a Modification is:
+A. Any addition to or deletion from the contents of a file containing Original Code or previous Modifications.
+B. Any new file that contains any part of the Original Code or previous Modifications.
+1.10. "Original Code" means Source Code of computer software code which is described in the Source Code notice required by Exhibit A as Original Code, and which, at the time of its release under this License is not already Covered Code governed by this License.
+1.11. "Source Code" means the preferred form of the Covered Code for making modifications to it, including all modules it contains, plus any associated interface definition files, scripts used to control compilation and installation of an Executable, or a list of source code differential comparisons against either the Original Code or another well known, available Covered Code of the Contributor's choice. The Source Code can be in a compressed or archival form, provided the appropriate decompression or de-archiving software is widely available for no charge.
+1.12. "You" means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License issued under Section 6.1. For legal entities, "You" includes any entity which controls, is controlled by, or is under common control with You. For purposes of this definition, "control" means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of fifty percent (50%) or more of the outstanding shares or beneficial ownership of such entity.
+2. Source Code License.
+2.1. The Initial Developer Grant. The Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims:
+(a) to use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof) with or without Modifications, or as part of a Larger Work; and
+(b) under patents now or hereafter owned or controlled by Initial Developer, to make, have made, use and sell ("Utilize") the Original Code (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Original Code (or portions thereof) and not to any greater extent that may be necessary to Utilize further Modifications or combinations.
+2.2. Contributor Grant. Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims:
+(a) to use, reproduce, modify, display, perform, sublicense and distribute the Modifications created by such Contributor (or portions thereof) either on an unmodified basis, with other Modifications, as Covered Code or as part of a Larger Work; and
+(b) under patents now or hereafter owned or controlled by Contributor, to Utilize the Contributor Version (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Contributor Version (or portions thereof), and not to any greater extent that may be necessary to Utilize further Modifications or combinations.
+3. Distribution Obligations.
+3.1. Application of License.
+The Modifications which You create or to which You contribute are governed by the terms of this License, including without limitation Section 2.2. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License released under Section 6.1, and You must include a copy of this License with every copy of the Source Code You distribute. You may not offer or impose any terms on any Source Code version that alters or restricts the applicable version of this License or the recipients' rights hereunder. However, You may include an additional document offering the additional rights described in Section 3.5.
+3.2. Availability of Source Code.
+Any Modification which You create or to which You contribute must be made available in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available; and if made available via Electronic Distribution Mechanism, must remain available for at least twelve (12) months after the date it initially became available, or at least six (6) months after a subsequent version of that particular Modification has been made available to such recipients. You are responsible for ensuring that the Source Code version remains available even if the Electronic Distribution Mechanism is maintained by a third party.
+3.3. Description of Modifications.
+You must cause all Covered Code to which you contribute to contain a file documenting the changes You made to create that Covered Code and the date of any change. You must include a prominent statement that the Modification is derived, directly or indirectly, from Original Code provided by the Initial Developer and including the name of the Initial Developer in (a) the Source Code, and (b) in any notice in an Executable version or related documentation in which You describe the origin or ownership of the Covered Code.
+3.4. Intellectual Property Matters
+(a) Third Party Claims.
+If You have knowledge that a party claims an intellectual property right in particular functionality or code (or its utilization under this License), you must include a text file with the source code distribution titled "LEGAL" which describes the claim and the party making the claim in sufficient detail that a recipient will know whom to contact. If you obtain such knowledge after You make Your Modification available as described in Section 3.2, You shall promptly modify the LEGAL file in all copies You make available thereafter and shall take other steps (such as notifying appropriate mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained.
+(b) Contributor APIs.
+If Your Modification is an application programming interface and You own or control patents which are reasonably necessary to implement that API, you must also include this information in the LEGAL file.
+3.5. Required Notices.
+You must duplicate the notice in Exhibit A in each file of the Source Code, and this License in any documentation for the Source Code, where You describe recipients' rights relating to Covered Code. If You created one or more Modification(s), You may add your name as a Contributor to the notice described in Exhibit A. If it is not possible to put such notice in a particular Source Code file due to its structure, then you must include such notice in a location (such as a relevant directory file) where a user would be likely to look for such a notice. You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Code. However, You may do so only on Your own behalf, and not on behalf of the Initial Developer or any Contributor. You must make it absolutely clear than any such warranty, support, indemnity or liability obligation is offered by You alone, and You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of warranty, support, indemnity or liability terms You offer.
+3.6. Distribution of Executable Versions.
+You may distribute Covered Code in Executable form only if the requirements of Section 3.1-3.5 have been met for that Covered Code, and if You include a notice stating that the Source Code version of the Covered Code is available under the terms of this License, including a description of how and where You have fulfilled the obligations of Section 3.2. The notice must be conspicuously included in any notice in an executable version, related documentation or collateral in which You describe recipients' rights relating to the Covered Code. You may distribute the Executable version of Covered Code under a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable version does not attempt to limit or alter the recipient's rights in the Source Code version from the rights set forth in this License. If You distribute the Executable version under a different license You must make it absolutely clear that any terms which differ from this License are offered by You alone, not by the Initial Developer or any Contributor. You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of any such terms You offer.
+3.7. Larger Works.
+You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Code.
+4. Inability to Comply Due to Statute or Regulation.
+If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Code due to statute or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 3.4 and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it.
+5. Application of this License.
+This License applies to code to which the Initial Developer has attached the notice in Exhibit A, and to related Covered Code.
+6. Versions of the License.
+6.1. New Versions.
+Floris van den Berg may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
+6.2. Effect of New Versions.
+Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Floris van den Berg. No one other than Floris van den Berg has the right to modify the terms applicable to Covered Code created under this License.
+6.3. Derivative Works.
+If you create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), you must (a) rename Your license so that the phrases "FreeImage", `FreeImage Public License", "FIPL", or any confusingly similar phrase do not appear anywhere in your license and (b) otherwise make it clear that your version of the license contains terms which differ from the FreeImage Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
+7. DISCLAIMER OF WARRANTY.
+COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
+8. TERMINATION.
+This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses to the Covered Code which are properly granted shall survive any termination of this License. Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive.
+9. LIMITATION OF LIABILITY.
+UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO YOU OR ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THAT EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
+10. U.S. GOVERNMENT END USERS.
+The Covered Code is a "commercial item," as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of "commercial computer software" and "commercial computer software documentation," as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire Covered Code with only those rights set forth herein.
+11. MISCELLANEOUS.
+This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by Dutch law provisions (except to the extent applicable law, if any, provides otherwise), excluding its conflict-of-law provisions. With respect to disputes in which at least one party is a citizen of, or an entity chartered or registered to do business in, the The Netherlands: (a) unless otherwise agreed in writing, all disputes relating to this License (excepting any dispute relating to intellectual property rights) shall be subject to final and binding arbitration, with the losing party paying all costs of arbitration; (b) any arbitration relating to this Agreement shall be held in Almelo, The Netherlands; and (c) any litigation relating to this Agreement shall be subject to the jurisdiction of the court of Almelo, The Netherlands with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys fees and expenses. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License.
+12. RESPONSIBILITY FOR CLAIMS.
+Except in cases where another Contributor has failed to comply with Section 3.4, You are responsible for damages arising, directly or indirectly, out of Your utilization of rights under this License, based on the number of copies of Covered Code you made available, the revenues you received from utilizing such rights, and other relevant factors. You agree to work with affected parties to distribute responsibility on an equitable basis.
+EXHIBIT A.
+"The contents of this file are subject to the FreeImage Public License Version 1.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://home.wxs.nl/~flvdberg/freeimage-license.txt
+Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
+++++++++++++++++++++++++++++++
+GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3 of the GNU General Public License, supplemented by the additional permissions listed below.
+0. Additional Definitions.
+As used herein, this License refers to version 3 of the GNU Lesser General Public License, and the GNU GPL refers to version 3 of the GNU General Public License.
+The Library refers to a covered work governed by this License, other than an Application or a Combined Work as defined below.
+An Application is any work that makes use of an interface provided by the Library, but which is not otherwise based on the Library. Defining a subclass of a class defined by the Library is deemed a mode of using an interface provided by the Library.
+A Combined Work is a work produced by combining or linking an Application with the Library. The particular version of the Library with which the Combined Work was made is also called the Linked Version.
+The Minimal Corresponding Source for a Combined Work means the Corresponding Source for the Combined Work, excluding any source code for portions of the Combined Work that, considered in isolation, are based on the Application, and not on the Linked Version.
+The Corresponding Application Code for a Combined Work means the object code and/or source code for the Application, including any data and utility programs needed for reproducing the Combined Work from the Application, but excluding the System Libraries of the Combined Work.
+1. Exception to Section 3 of the GNU GPL.
+You may convey a covered work under sections 3 and 4 of this License without being bound by section 3 of the GNU GPL.
+2. Conveying Modified Versions.
+If you modify a copy of the Library, and, in your modifications, a facility refers to a function or data to be supplied by an Application that uses the facility (other than as an argument passed when the facility is invoked), then you may convey a copy of the modified version:
+a) under this License, provided that you make a good faith effort to ensure that, in the event an Application does not supply the function or data, the facility still operates, and performs whatever part of its purpose remains meaningful, or
+b) under the GNU GPL, with none of the additional permissions of this License applicable to that copy.
+3. Object Code Incorporating Material from Library Header Files.
+The object code form of an Application may incorporate material from a header file that is part of the Library. You may convey such object code under terms of your choice, provided that, if the incorporated material is not limited to numerical parameters, data structure layouts and accessors, or small macros, inline functions and templates (ten or fewer lines in length), you do both of the following:
+a) Give prominent notice with each copy of the object code that the Library is used in it and that the Library and its use are covered by this License.
+b) Accompany the object code with a copy of the GNU GPL and this license document.
+4. Combined Works.
+You may convey a Combined Work under terms of your choice that, taken together, effectively do not restrict modification of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications, if you also do each of the following:
+a) Give prominent notice with each copy of the Combined Work that the Library is used in it and that the Library and its use are covered by this License.
+b) Accompany the Combined Work with a copy of the GNU GPL and this license document.
+c) For a Combined Work that displays copyright notices during execution, include the copyright notice for the Library among these notices, as well as a reference directing the user to the copies of the GNU GPL and this license document.
+d) Do one of the following:
+0) Convey the Minimal Corresponding Source under the terms of this License, and the Corresponding Application Code in a form suitable for, and under terms that permit, the user to recombine or relink the Application with a modified version of the Linked Version to produce a modified Combined Work, in the manner specified by section 6 of the GNU GPL for conveying Corresponding Source.
+1) Use a suitable shared library mechanism for linking with the Library. A suitable mechanism is one that (a) uses at run time a copy of the Library already present on the user's computer system, and (b) will operate properly with a modified version of the Library that is interface-compatible with the Linked Version.
+e) Provide Installation Information, but only if you would otherwise be required to provide such information under section 6 of the GNU GPL, and only to the extent that such information is necessary to install and execute a modified version of the Combined Work produced by recombining or relinking the Application with a modified version of the Linked Version. (If you use option 4d0, the Installation Information must accompany the Minimal Corresponding Source and Corresponding Application Code. If you use option 4d1, you must provide the Installation Information in the manner specified by section 6 of the GNU GPL for conveying Corresponding Source.)
+5. Combined Libraries.
+You may place library facilities that are a work based on the Library side by side in a single library together with other library facilities that are not Applications and are not covered by this License, and convey such a combined library under terms of your choice, if you do both of the following:
+a) Accompany the combined library with a copy of the same work based on the Library, uncombined with any other library facilities, conveyed under the terms of this License.
+b) Give prominent notice with the combined library that part of it is a work based on the Library, and explaining where to find the accompanying uncombined form of the same work.
+6. Revised Versions of the GNU Lesser General Public License.
+The Free Software Foundation may publish revised and/or new versions of the GNU Lesser General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+Each version is given a distinguishing version number. If the Library as you received it specifies that a certain numbered version of the GNU Lesser General Public License or any later version applies to it, you have the option of following the terms and conditions either of that published version or of any later version published by the Free Software Foundation. If the Library as you received it does not specify a version number of the GNU Lesser General Public License, you may choose any version of the GNU Lesser General Public License ever published by the Free Software Foundation.
+If the Library as you received it specifies that a proxy can decide whether future versions of the GNU Lesser General Public License shall apply, that proxy's public statement of acceptance of any version is permanent authorization for you to choose that version for the Library.
+++++++++++++++++++++++++++++++
+MIT License
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+++++++++++++++++++++++++++++++
+MIT/X11 License
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Except as contained in this notice, the name of this project shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from this project.
+++++++++++++++++++++++++++++++
+Oculus VR, LLC Software Development Kit License Agreement
+The text of this may be found at: https://developer.oculus.com/licenses/pc-3.2/
+1. Subject to the terms and conditions of this License Agreement (the “License”), Oculus VR, LLC (“Oculus VR”) hereby grants to you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, sublicenseable copyright license to use, reproduce, redistribute (subject to restrictions below), modify, and improve the software contained in this Oculus VR Rift Software Development Kit (“RIFT SDK”), including, but not limited to, the samples, headers, LibOVR headers, and LibOVR source. This license is subject to the following terms and conditions:
+1.1. This license includes the non-exclusive license and right to use (i) the RIFT SDK to make applications, content, games and demos (collectively and generally referred to as “Developer Content”) that run on the Oculus VR approved mobile hardware and software products (“Oculus Approved Rift Products”) and which may incorporate the RIFT SDK in whole or in part in binary or object code; and (ii) to use the RIFT SDK to create derivative works of the RIFT SDK itself (“RIFT SDK Derivatives”), whether in source, binary, or object form, in whole or in part, including third party software unless otherwise noted.
+1.2. RIFT SDK Derivatives are further defined as source, binary or object code derived exclusively from the RIFT SDK by you; provided, however, that RIFT SDK Derivatives do not include the Developer Content (engines, utilities, applications, content, games or demos) which may be developed using the RIFT SDK. By way of example a mobile application or game or demo that is developed using the RIFT SDK would not be a RIFT SDK Derivative , nor would a utility or tool set in a pre-existing game engine that is adapted to work with the RIFT SDK be a RIFT SDK Derivative. By way of example, but not limitation, a RIFT SDK Derivative is or would be: either (i) an adaptation of a utility or piece of code from the RIFT SDK to improve efficiency; or (ii) an addition of code or improvement to the RIFT SDK that adds functionality.
+1.3 For the sake of clarification when you use the RIFT SDK (including RIFT SDK Derivatives) in or with Developer Content, you retain all rights to your Developer Content, and you have no obligations to share or license Developer Content (including your source and object code) to Oculus VR or any third parties; provided, however, Oculus VR retains all rights to the RIFT SDK and the RIFT SDK Derivatives that may be incorporated into your Developer Content.
+1.4 You agree to and you will use the Flash Screen Warning and the Health and Safety Warnings (collectively the “Oculus Warnings”) and the Oculus VR health and safety protocols found in the Oculus Best Practices Guide (“Oculus H&S Protocols”),and your use of the Oculus Warnings and the Oculus end user license agreement (“Oculus EULA”) with your Developer Content as provided for in the Oculus Developer Center, all of which can be found at the following link: https://developer.oculus.com/documentation/.
+2. You, the recipient and user of the RIFT SDK, hereby agree and accept that Oculus VR shall own all right, title and interest to the intellectual property rights, including, but not limited to copyright, trademark and patent rights, to any RIFT SDK Derivatives that you may create, and you hereby assign any and all such rights to such RIFT SDK Derivatives to Oculus VR, subject to the following.
+2.1 We hereby grant to you the a fully paid up, no-charge, royalty-free, world-wide, in perpetuity, non-exclusive right and license back to use these RIFT SDK Derivatives solely in conjunction with the RIFT SDK (or any components of the RIFT SDK) and/or Developer Content on Oculus Rift Products as set forth herein.
+2.2 Furthermore, for the sake of clarification, Oculus VR and its assignees and licensees shall be free to use such RIFT SDK Derivatives without any approval from you and without compensation or attribution to you.
+2.3 You also agree upon Oculus VR’s request to provide the source and binary code of any RIFT SDK Derivatives to Oculus VR. FAILURE TO COMPLY WITH THIS REQUEST IS THE BASIS FOR AUTOMATIC TERMINATION OF THIS LICENSE BY OCULUS VR.
+3. Subject to the terms and conditions of this License, your license to redistribute and sublicense the RIFT SDK and RIFT SDK Derivatives is also expressly made subject to the following conditions:
+3.1. You may sublicense and redistribute the source, binary, or object code of the RIFT SDK in whole or in part by itself for no charge or as part of a for charge piece of Developer Content; provided, however, you may only license, sublicense or redistribute the source, binary or object code of LibOVR in whole, and you may not license, sublicense or redistribute any portion or element of LibOVR separately or in part (in either source, binary or object form). If you license, sublicense or redistribute RIFT SDK Derivatives in and of themselves (not as a part of a piece of Developer Content) then you may only do that solely with and in conjunction with either the RIFT SDK or LibOVR. The RIFT SDK (including, but not limited to LibOVR),any RIFT SDK Derivatives, and any Developer Content may only be used with Oculus Approved Rift Products and may not be used, licensed, or sublicensed to interface with mobile software or hardware or other commercial headsets, mobile tablets or phones that are not authorized and approved by Oculus VR;
+3.2. You must include with all such redistributed or sublicensed RIFT SDK or RIFT SDK Derivatives code the following copyright notice: “Copyright © 2014 Oculus VR, LLC. All rights reserved,” and include the list of conditions contained in this Section 3, including the full text of the disclaimer in Section 3.6 below;
+3.3. Neither the name of Oculus VR, LLC nor the names of Oculus VR, LLC’s contributors, licensors, employees, or contractors, may be used to endorse or promote products derived from this RIFT SDK without specific prior written permission of Oculus VR, LLC;
+3.4. You must give any other recipients of the RIFT SDK or any elements thereof, including LibOVR or RIFT SDK Derivatives, a copy of this License as such recipients, licensees or sublicensees may only use the RIFT SDK or any RIFT SDK Derivatives or any elements thereof subject to the terms of this License and such recipients, licensees or sublicensees agreement and acceptance of this License with Oculus VR (which will convey all rights to the recipients’ or licensees’ or sublicensees’ RIFT SDK Derivatives to Oculus VR), and you must cause any modified files to carry prominent notices stating that you changed the files;
+3.5. If the RIFT SDK or a specific element thereof such as LibOVR includes a “LICENSE” text file as part of its distribution (the “License Notice”), then any RIFT SDK Derivatives that you distribute with the RIFT SDK in whole or in part must include a readable copy of such attribution notices as are contained within the applicable License Notice file (excluding those notices that do not pertain to any part of the RIFT SDK Derivatives), in at least one of the following places: within a License Notice text file distributed as part of the RIFT SDK Derivatives; within the source form or documentation, if provided along with the RIFT SDK Derivatives; or, within a display generated by the RIFT SDK Derivatives, if and wherever such third-party notices normally appear. You must also include in the License Notice file for all RIFT SDK Derivatives a copy of all notices (including any product liability or health and safety notices). The contents of the License Notice file are for informational purposes only and do not modify the License. You may add your own attribution notices within RIFT SDK Derivatives that you distribute, alongside or as an addendum to the License Notice text from the RIFT SDK or any part thereof, provided that such additional attribution notices cannot be construed as modifying the License.
+3.6. THIS RIFT SDK AND ANY COMPONENT THEREOF IS PROVIDED BY OCULUS VR AND ITS CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL OCULUS VR AS THE COPYRIGHT OWNER OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS RIFT SDK OR THE RIFT SDK DERIVATIVES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+4. This License does not grant permission to use the trade names, trademarks, service marks, or product names of Oculus VR, except as required for reasonable and customary use in describing the origin of the RIFT SDK, LibOVR, or any element thereof, and reproducing the content of the License Notice file. Oculus VR reserves all rights not expressly granted to you under this License.
+5. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall Oculus VR or any contributor be liable to you or your licensees or sublicensees for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the RIFT SDK, LibOVR, any element thereof or any RIFT SDK Derivatives (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if you or such contributor has been advised of the possibility of such damages.
+6. Your acceptance of the terms and conditions of this License in and of itself and for all Developer Content created as of March 1, 2014, may be evidenced by any of the following: your usage of the RIFT SDK or any element thereof, acceptance of the click-through agreement, or opening the packaging of the CD-ROM containing the RIFT SDK or any element thereof, including LibOVR. As this License is updated for future releases of the RIFT SDK and/or LibOVR, you agree to abide by and meet all requirements of future updates of this License for those future RIFT SDK releases as evidenced by the same usage of the RIFT SDK or any element thereof and the future updates of this License will apply for that future Developer Content that may developed for or with that future RIFT SDK or any element thereof (i.e., you cannot sidestep out of the requirements of future updates of the License by developing against an older release of the RIFT SDK or License).
+7. Oculus VR reserves the right to terminate this License and all your rights hereunder in the event you materially breach this License and fail to cure such breach within ten (10) business days after notice of breach from Oculus VR.
+8. Furthermore, Oculus VR also reserves the right to cancel or terminate this License for any of the following reasons upon notice to you, subject to the appeal process set forth in Section 14 for a wrongful termination:
+a. Intellectual property infringement by you with Developer Content or RIFT SDK Derivatives created by you that is used with or by the RIFT SDK or any part thereof, or any of the RIFT SDK Derivatives;
+b. Developer Content that violates or infringes upon applicable law;
+c. Health and safety issues associated with your Developer Content;
+d. Failure to comply with or use properly the Oculus Warnings, Oculus H&S Protocols, or Oculus EULA;
+e. Use of the RIFT SDK, RIFT SDK Derivatives or LibOVR with a commercial product other than an Oculus Approved Product; and
+f. Failure to provide required notices or deliver source code and/or binary of RIFT SDK Derivatives as set forth above.
+If you believe that you have been wrongfully terminated under this Section 8 with respect to material breach or with respect to these above conditions, you have the right to appeal the termination of this License under Section 14.
+9. This License may be amended by Oculus VR on a prospective basis, and your usage of the License after such amendments or changes signifies your consent to and acceptance of any such amendments or changes on a going forward basis.
+10. In the event any provision of this License is determined to be invalid, prohibited or unenforceable by a court or other body of competent jurisdiction, this License shall be construed as if such invalid, prohibited or unenforceable provision has been more narrowly drawn so as not to be invalid, prohibited or unenforceable.
+11. You may not assign any rights or obligations under this License without the advance written consent of Oculus VR, which may be withheld in its sole discretion. Oculus VR may assign its rights or obligations under this License in its sole discretion.
+12. Failure of either party at any time to enforce any of the provisions of this License will not be construed as a waiver of such provisions or in any way affect the validity of this License or parts thereof.
+13. Your remedies under this License shall be limited to the right to collect money damages, if any, and you hereby waive your right to injunctive or other equitable relief.
+14. This License shall be governed by the laws of the State of California, without giving effect to choice of law principles. All disputes relating to this License shall be resolved by binding non-appearance-based arbitration before a neutral arbitrator in Orange County, California. If your License has been terminated hereunder by Oculus, you may appeal your termination through this arbitration process on an expedited basis with an arbitration within thirty days of your giving Oculus VR notice of the appeal. The arbitration shall be conducted in accordance with the rules and procedures of JAMS then in effect, and the judgment of the arbitrator shall be final and capable of entry in any court of competent jurisdiction. You agree to submit to the personal jurisdiction of the courts located within Orange County, California in connection with any entrance of an arbitrator’s judgment or decision or any dispute with respect to the arbitration process or procedure or Oculus VR’s exercise of its equitable rights or remedies.
+++++++++++++++++++++++++++++++
+OpenSSL License 
+--------------- 
+Copyright (c) 1998-2008 The OpenSSL Project. All rights reserved. 
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. All advertising materials mentioning features or use of this software must display the following acknowledgment: "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)" 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact openssl-core@openssl.org. 5. Products derived from this software may not be called "OpenSSL" nor may "OpenSSL" appear in their names without prior written permission of the OpenSSL Project. 6. Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/)" THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). This product includes software written by Tim Hudson (tjh@cryptsoft.com). 
+++++++++++++++++++++++++++++++
+Original SSLeay License 
+----------------------- 
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com) All rights reserved. 
+This package is an SSL implementation written by Eric Young (eay@cryptsoft.com). The implementation was written so as to conform to Netscape’s SSL. This library is free for commercial and non-commercial use as long as the following conditions are adhered to. The following conditions apply to all code found in this distribution, be it the RC4, RSA, lhash, DES, etc., code; not just the SSL code. The SSL documentation included with this distribution is covered by the same copyright terms except that the holder is Tim Hudson (tjh@cryptsoft.com). Copyright remains Eric Young's, and as such any Copyright notices in the code are not to be removed. If this package is used in a product, Eric Young should be given attribution as the author of the parts of the library used. This can be in the form of a textual message at program startup or in documentation (online or textual) provided with the package. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. All advertising materials mentioning features or use of this software must display the following acknowledgement: Intel® Omni-Path Software April 2016 Third Party Readme 7 Doc No.: H85205, Rev.: 3.0 "This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)" The word 'cryptographic' can be left out if the routines from the library being used are not cryptographic related :-). 4. If you include any Windows specific code (or a derivative thereof) from the apps directory (application code) you must include an acknowledgement: "This product includes software written by Tim Hudson (tjh@cryptsoft.com)" THIS SOFTWARE IS PROVIDED BY ERIC YOUNG "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. The license and distribution terms for any publically available version or derivative of this code cannot be changed; i.e. this code cannot simply be copied and put under another distribution license [including the GNU Public License.]
+++++++++++++++++++++++++++++++
+SIL Open Font License, Version 1.1
+----------------
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+"Reserved Font Name" refers to any names specified as such after the copyright statement(s).
+"Original Version" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+"Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+"Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+++++++++++++++++++++++++++++++
+zlib or zlib/libpng License (Zlib)
+Copyright (c) <year> <copyright holders>
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
