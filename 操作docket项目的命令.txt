@@ -1,0 +1,35 @@
+Sudo docker exec -it metacard /bin/bash
+项目目录：/data
+Redis config : /etc/redis/redis.conf
+ps -ef|grep php
+
+一、重启scoket服务操作流程
+1.切换root用户进入到docker容器下
+sudo docker exec -it metacard /bin/bash
+
+2.进入到data目录下
+cd /data   
+
+3.查看scoket的php 进程端口
+ps -ef|grep php
+
+4.杀死占用的进程
+kill -9 进程号
+
+5.重启scoket服务
+php server.php
+
+二、修改nginx配置并重启nginx
+1.进入到配置文件
+cd /etc/nginx/conf.d
+2.编辑对应域名的.conf配置文件 
+3.进入到重启nginx的执行目录
+cd /usr/local/openresty/nginx/sbin
+4.执行重启nginx的操作。
+nginx -s reload
+
+
+三、ubuntu部署新项目
+1.把项目文件放到项目目录下  /data/web/
+2.把域名绑定文件放到对应位置下  /etc/nginx/conf.d/
+3.重启nginx ,进入/etc/nginx/目录，执行：nginx -s reload 
