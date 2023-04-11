@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root LongForm="false">
+  <Model>
+    <Search>
+    </Search>
+  </Model>
+  <header_footer_terms>
+    <meta_descr>Unity is the ultimate game development platform. Use Unity to build high-quality 3D and 2D games, deploy them across mobile, desktop, VR/AR, consoles or the Web, and connect with loyal and enthusiastic players and customers.</meta_descr>
+    <unity_tech>Unity Technologies</unity_tech>
+    <overview>Overview</overview>
+    <manual>Manual</manual>
+    <scripting_api>Scripting API</scripting_api>
+    <learn>Learn</learn>
+    <tutorials>Tutorials</tutorials>
+    <tutorials_url>http://unity3d.com/learn</tutorials_url>
+    <live_training>Live Training</live_training>
+    <premium_support>Premium Support</premium_support>
+    <community>Community</community>
+    <forums>Forums</forums>
+    <forums_url>http://forum.unity3d.com</forums_url>
+    <answers>Answers</answers>
+    <feedback>Feedback</feedback>
+    <issuetracker>Issue Tracker</issuetracker>
+    <unity_manual>Unity Manual</unity_manual>
+    <unity_dash_manual>Unity - Manual</unity_dash_manual>
+    <full_table_of_contents>Full table of contents</full_table_of_contents>
+    <copyright>Copyright © 2016 Unity Technologies</copyright>
+    <unity>Unity</unity>
+    <gallery>Gallery</gallery>
+    <asset_store>Asset Store</asset_store>
+    <assetstore_url>http://unity3d.com/asset-store</assetstore_url>
+    <buy>Buy</buy>
+    <download>Download</download>
+    <knowledgebase>Knowledge Base</knowledgebase>
+    <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+    <community_answers>Community Answers</community_answers>
+    <community_answers_url>http://answers.unity3d.com</community_answers_url>
+    <download>Download</download>
+    <language>Language</language>
+    <previous>Previous</previous>
+    <next>Next</next>
+  </header_footer_terms>
+</Root>
